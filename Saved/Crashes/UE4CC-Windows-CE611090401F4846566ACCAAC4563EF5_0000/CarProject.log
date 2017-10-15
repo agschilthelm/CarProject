@@ -1,0 +1,333 @@
+﻿Log file open, 10/14/17 11:39:28
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: CarProject
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(534193773) SRandInit(534193773).
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.204392
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin RawInput
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3658906
+LogInit: Engine Version: 4.17.2-3658906+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Sep 22 2017 13:47:16
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.10.14-15.39.31:520][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.14-15.39.31:520][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.10.14-15.39.31:577][  0]LogInit: Computer: DESKTOP-I9SMP4L
+[2017.10.14-15.39.31:577][  0]LogInit: User: AricsPC
+[2017.10.14-15.39.31:577][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.10.14-15.39.31:577][  0]LogInit: High frequency timer resolution =2.250001 MHz
+[2017.10.14-15.39.31:577][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.10.14-15.39.31:578][  0]LogMemory: Platform Memory Stats for Windows
+[2017.10.14-15.39.31:578][  0]LogMemory: Process Physical Memory: 277.30 MB used, 277.30 MB peak
+[2017.10.14-15.39.31:578][  0]LogMemory: Process Virtual Memory: 274.26 MB used, 274.26 MB peak
+[2017.10.14-15.39.31:578][  0]LogMemory: Physical Memory: 3717.13 MB used,  4348.13 MB free, 8065.26 MB total
+[2017.10.14-15.39.31:578][  0]LogMemory: Virtual Memory: 668.16 MB used,  4348.13 MB free, 134217728.00 MB total
+[2017.10.14-15.39.35:881][  0]LogInit: Using OS detected language (en-US).
+[2017.10.14-15.39.35:881][  0]LogInit: Using OS detected locale (en-US).
+[2017.10.14-15.39.36:032][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.10.14-15.39.41:186][  0]LogD3D11RHI: D3D11 adapters:
+[2017.10.14-15.39.41:486][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
+[2017.10.14-15.39.41:486][  0]LogD3D11RHI:       4064/0/4032 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.10.14-15.39.41:525][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2017.10.14-15.39.41:525][  0]LogD3D11RHI:       128/0/4032 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.10.14-15.39.41:526][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.10.14-15.39.41:526][  0]LogD3D11RHI:       0/0/4032 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.10.14-15.39.41:526][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.10.14-15.39.41:536][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.10.14-15.39.41:537][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
+[2017.10.14-15.39.41:537][  0]LogWindows: EnumDisplayDevices:
+[2017.10.14-15.39.41:537][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2017.10.14-15.39.41:537][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2017.10.14-15.39.41:538][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2017.10.14-15.39.41:538][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.10.14-15.39.41:538][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
+[2017.10.14-15.39.41:538][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.10.14-15.39.41:538][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.10.14-15.39.41:538][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.10.14-15.39.41:578][  0]LogD3D11RHI: Async texture creation enabled
+[2017.10.14-15.39.41:824][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.10.14-15.39.41:880][  0]LogShaderCompilers: Guid format shader working directory is -21 characters bigger than the processId version (../../../../../../Users/Aric's PC/Documents/Unreal Projects/CarProject/Intermediate/Shaders/WorkingDirectory/15908/).
+[2017.10.14-15.39.41:880][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Aric's PC/AppData/Local/Temp/UnrealShaderWorkingDir/229C5F5A426BCA2F537EBD8D93731B35/'.
+[2017.10.14-15.39.41:881][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.10.14-15.39.45:942][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.10.14-15.39.46:027][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.10.14-15.39.46:112][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.10.14-15.39.46:198][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.10.14-15.39.46:310][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.10.14-15.39.46:397][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.10.14-15.39.46:482][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.10.14-15.39.46:568][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.10.14-15.39.46:648][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.10.14-15.39.46:791][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.10.14-15.39.46:904][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.10.14-15.39.47:002][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.10.14-15.39.47:136][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.10.14-15.39.47:248][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.10.14-15.39.47:367][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.10.14-15.39.47:564][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.10.14-15.39.47:564][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.10.14-15.39.47:667][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.10.14-15.39.47:874][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.10.14-15.39.47:929][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.10.14-15.39.48:045][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.10.14-15.39.48:158][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.10.14-15.39.48:294][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.10.14-15.39.48:423][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.10.14-15.39.48:423][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.10.14-15.39.50:116][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.10.14-15.39.51:128][  0]LogDerivedDataCache: Loaded boot cache 1.01s 93MB C:/Users/Aric's PC/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.10.14-15.39.51:128][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Aric's PC/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.10.14-15.39.51:128][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Aric's PC/Documents/Unreal Projects/CarProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.10.14-15.39.51:128][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.10.14-15.39.51:128][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Aric's PC/Documents/Unreal Projects/CarProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.10.14-15.39.51:128][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.10.14-15.39.51:178][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.10.14-15.39.51:192][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Aric's PC/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.10.14-15.39.51:236][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.10.14-15.39.51:294][  0]LogSlate: Using Freetype 2.6.0
+[2017.10.14-15.39.51:327][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.14-15.39.51:327][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.14-15.39.59:378][  0]LogAssetRegistry: FAssetRegistry took 0.0301 seconds to start up
+[2017.10.14-15.40.00:078][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.14-15.40.03:598][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.10.14-15.40.04:972][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.10.14-15.40.05:095][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.10.14-15.40.05:096][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.10.14-15.40.05:096][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.10.14-15.40.05:096][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.10.14-15.40.05:096][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.10.14-15.40.07:662][  0]LogNetVersion: CarProject , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3093238724)
+[2017.10.14-15.40.08:909][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.114181 seconds
+[2017.10.14-15.40.08:917][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.10.14-15.40.08:917][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
+[2017.10.14-15.40.08:918][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.10.14-15.40.09:039][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.10.14-15.40.38:021][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.10.14-15.40.38:141][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.10.14-15.40.42:472][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.10.14-15.40.44:009][  0]SourceControl: Source control is disabled
+[2017.10.14-15.40.44:009][  0]SourceControl: Source control is disabled
+[2017.10.14-15.40.44:268][  0]SourceControl: Source control is disabled
+[2017.10.14-15.40.44:403][  0]SourceControl: Source control is disabled
+[2017.10.14-15.40.46:795][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.10.14-15.40.47:386][  0]LogOcInput: OculusInput pre-init called
+[2017.10.14-15.40.48:244][  0]LogEngine: Initializing Engine...
+[2017.10.14-15.40.48:288][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.10.14-15.40.49:165][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.10.14-15.40.49:166][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.10.14-15.40.49:520][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.10.14-15.40.49:618][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.14-15.40.50:119][  0]LogInit: FAudioDevice initialized.
+[2017.10.14-15.40.50:312][  0]LogDerivedDataCache: Saved boot cache 0.19s 93MB C:/Users/Aric's PC/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.10.14-15.40.50:328][  0]LogInit: Texture streaming: Enabled
+[2017.10.14-15.40.50:642][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.10.14-15.40.51:396][  0]LogInit: Transaction tracking system initialized
+[2017.10.14-15.40.52:199][  0]BlueprintLog: New page: Editor Load
+[2017.10.14-15.40.54:609][  0]LocalizationService: Localization service is disabled
+[2017.10.14-15.40.57:157][  0]LogConsoleResponse: Display: 
+[2017.10.14-15.40.59:051][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.10.14-15.40.59:054][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Aric's PC/Documents/Unreal Projects/CarProject/Content/' took 0.02s
+[2017.10.14-15.40.59:054][  0]LogCook: Display: Mobile HDR setting 1
+[2017.10.14-15.40.59:060][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.10.14-15.41.02:676][  0]SourceControl: Source control is disabled
+[2017.10.14-15.41.02:700][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Aric's PC/Documents/Unreal Projects/CarProject/Content/VehicleAdvCPP/Maps/VehicleAdvExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.14-15.41.02:705][  0]LightingResults: New page: Lighting Build
+[2017.10.14-15.41.02:817][  0]MapCheck: New page: Map Check
+[2017.10.14-15.41.02:817][  0]LightingResults: New page: Lighting Build
+[2017.10.14-15.41.06:708][  0]LogAIModule: Creating AISystem for world VehicleAdvExampleMap
+[2017.10.14-15.41.07:895][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.14-15.41.08:030][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.14-15.41.08:124][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 93.934ms to complete.
+[2017.10.14-15.41.08:124][  0]LogFileHelpers: Loading map 'VehicleAdvExampleMap' took 5.425
+[2017.10.14-15.41.08:859][  0]LogCollectionManager: Loaded 0 collections in 0.003108 seconds
+[2017.10.14-15.41.09:009][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Aric's PC/Documents/Unreal Projects/CarProject/Saved/Collections/' took 0.01s
+[2017.10.14-15.41.09:009][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Aric's PC/Documents/Unreal Projects/CarProject/Content/Developers/AricsPC/Collections/' took 0.01s
+[2017.10.14-15.41.09:009][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Aric's PC/Documents/Unreal Projects/CarProject/Content/Collections/' took 0.01s
+[2017.10.14-15.41.09:009][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2017.10.14-15.41.09:050][  0]LogContentBrowser: Native class hierarchy populated in 0.0377 seconds. Added 2394 classes and 505 folders.
+[2017.10.14-15.41.09:303][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0038 seconds. Added 0 classes and 0 folders.
+[2017.10.14-15.41.11:303][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0056 seconds. Added 0 classes and 0 folders.
+[2017.10.14-15.41.11:437][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0034 seconds. Added 1 classes and 2 folders.
+[2017.10.14-15.41.11:678][  0]LogSlate: Took 0.011484 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.10.14-15.41.11:694][  0]LogSlate: Took 0.013214 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.10.14-15.41.11:716][  0]LogSlate: Took 0.012510 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.10.14-15.41.12:067][  0]LogRenderer: Reallocating scene render targets to support 964x436 Format 10 NumSamples 1 (Frame:1).
+[2017.10.14-15.41.12:612][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0035 seconds. Added 1 classes and 2 folders.
+[2017.10.14-15.41.12:612][  0]LogLoad: (Engine Initialization) Total time: 107.17 seconds
+[2017.10.14-15.41.12:612][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.10.14-15.41.12:613][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.10.14-15.41.12:613][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.10.14-15.41.12:632][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.10.14-15.41.12:645][  0]LogRawInputWindows: Warning: Found device 0 devices
+[2017.10.14-15.41.12:645][  0]LogRawInputWindows: Warning: Found device 0 devices
+[2017.10.14-15.41.12:645][  0]LogRawInputWindows: Warning: Device was registered succesfully but not connected (Usage:4 UsagePage:1
+[2017.10.14-15.41.12:645][  0]LogRawInputWindows: Warning: Found device 1 devices
+[2017.10.14-15.41.12:645][  0]LogRawInputWindows: Warning: Device was registered succesfully but not connected (Usage:5 UsagePage:1
+[2017.10.14-15.41.12:685][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.10.14-15.41.12:823][  0]LogSlate: Took 0.032663 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.14-15.41.12:983][  2]LogAssetRegistry: Asset discovery search completed in 73.6286 seconds
+[2017.10.14-15.41.12:990][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.10.14-15.41.12:991][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000072 seconds (updated 0 objects)
+[2017.10.14-15.41.15:663][143]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.14-15.41.15:867][143]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap' with GeneratedClass '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap_C' with ClassGeneratedBy '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap'
+[2017.10.14-15.41.15:867][143]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.14-15.41.16:386][143]PIE: New page: PIE session: VehicleAdvExampleMap (Oct 14, 2017, 7:41:16 AM)
+[2017.10.14-15.41.16:388][143]LogPlayLevel: Creating play world package: /Game/VehicleAdvCPP/Maps/UEDPIE_0_VehicleAdvExampleMap
+[2017.10.14-15.41.16:454][143]LogPlayLevel: PIE: StaticDuplicateObject took: (0.065197s)
+[2017.10.14-15.41.16:455][143]LogAIModule: Creating AISystem for world VehicleAdvExampleMap
+[2017.10.14-15.41.16:455][143]LogPlayLevel: PIE: World Init took: (0.001149s)
+[2017.10.14-15.41.16:457][143]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap to /Game/VehicleAdvCPP/Maps/UEDPIE_0_VehicleAdvExampleMap.VehicleAdvExampleMap (0.068995s)
+[2017.10.14-15.41.16:476][143]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.14-15.41.16:501][143]LogInit: FAudioDevice initialized.
+[2017.10.14-15.41.16:667][143]LogLoad: Game class is 'CarProjectGameMode'
+[2017.10.14-15.41.16:760][143]LogWorld: Bringing World /Game/VehicleAdvCPP/Maps/UEDPIE_0_VehicleAdvExampleMap.VehicleAdvExampleMap up for play (max tick rate 60) at 2017.10.14-11.41.16
+[2017.10.14-15.41.16:768][143]LogWorld: Bringing up level for play took: 0.060564
+[2017.10.14-15.41.16:920][143]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0028 seconds. Added 11 classes and 0 folders.
+[2017.10.14-15.41.16:960][143]PIE: Play in editor start time for /Game/VehicleAdvCPP/Maps/UEDPIE_0_VehicleAdvExampleMap 0.98
+[2017.10.14-15.41.16:961][143]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap' with GeneratedClass '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap_C' with ClassGeneratedBy '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap'
+[2017.10.14-15.41.43:870][746]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap' with GeneratedClass '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap_C' with ClassGeneratedBy '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap'
+[2017.10.14-15.41.43:935][746]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap' with GeneratedClass '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap_C' with ClassGeneratedBy '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap'
+[2017.10.14-15.41.45:047][809]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.14-15.41.45:063][809]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap' with GeneratedClass '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap_C' with ClassGeneratedBy '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap'
+[2017.10.14-15.41.45:063][809]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.14-15.41.45:063][809]PIE: New page: PIE session: VehicleAdvExampleMap (Oct 14, 2017, 7:41:45 AM)
+[2017.10.14-15.41.45:063][809]LogPlayLevel: Creating play world package: /Game/VehicleAdvCPP/Maps/UEDPIE_0_VehicleAdvExampleMap
+[2017.10.14-15.41.45:095][809]LogPlayLevel: PIE: StaticDuplicateObject took: (0.032012s)
+[2017.10.14-15.41.45:096][809]LogAIModule: Creating AISystem for world VehicleAdvExampleMap
+[2017.10.14-15.41.45:096][809]LogPlayLevel: PIE: World Init took: (0.001138s)
+[2017.10.14-15.41.45:097][809]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap to /Game/VehicleAdvCPP/Maps/UEDPIE_0_VehicleAdvExampleMap.VehicleAdvExampleMap (0.033560s)
+[2017.10.14-15.41.45:113][809]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.14-15.41.45:141][809]LogInit: FAudioDevice initialized.
+[2017.10.14-15.41.45:180][809]LogLoad: Game class is 'CarProjectGameMode'
+[2017.10.14-15.41.45:189][809]LogWorld: Bringing World /Game/VehicleAdvCPP/Maps/UEDPIE_0_VehicleAdvExampleMap.VehicleAdvExampleMap up for play (max tick rate 60) at 2017.10.14-11.41.45
+[2017.10.14-15.41.45:190][809]LogWorld: Bringing up level for play took: 0.006238
+[2017.10.14-15.41.45:191][809]PIE: Play in editor start time for /Game/VehicleAdvCPP/Maps/UEDPIE_0_VehicleAdvExampleMap -0.789
+[2017.10.14-15.41.45:191][809]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap' with GeneratedClass '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap_C' with ClassGeneratedBy '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap'
+[2017.10.14-15.42.24:433][159]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap' with GeneratedClass '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap_C' with ClassGeneratedBy '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap'
+[2017.10.14-15.42.24:472][159]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap' with GeneratedClass '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap_C' with ClassGeneratedBy '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap'
+[2017.10.14-15.43.04:172][537]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.14-15.43.04:188][537]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap' with GeneratedClass '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap_C' with ClassGeneratedBy '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap'
+[2017.10.14-15.43.04:188][537]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.14-15.43.04:188][537]PIE: New page: PIE session: VehicleAdvExampleMap (Oct 14, 2017, 7:43:04 AM)
+[2017.10.14-15.43.04:188][537]LogPlayLevel: Creating play world package: /Game/VehicleAdvCPP/Maps/UEDPIE_0_VehicleAdvExampleMap
+[2017.10.14-15.43.04:219][537]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031390s)
+[2017.10.14-15.43.04:220][537]LogAIModule: Creating AISystem for world VehicleAdvExampleMap
+[2017.10.14-15.43.04:221][537]LogPlayLevel: PIE: World Init took: (0.001140s)
+[2017.10.14-15.43.04:221][537]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap to /Game/VehicleAdvCPP/Maps/UEDPIE_0_VehicleAdvExampleMap.VehicleAdvExampleMap (0.033055s)
+[2017.10.14-15.43.04:234][537]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.14-15.43.04:263][537]LogInit: FAudioDevice initialized.
+[2017.10.14-15.43.04:298][537]LogLoad: Game class is 'CarProjectGameMode'
+[2017.10.14-15.43.04:305][537]LogWorld: Bringing World /Game/VehicleAdvCPP/Maps/UEDPIE_0_VehicleAdvExampleMap.VehicleAdvExampleMap up for play (max tick rate 60) at 2017.10.14-11.43.04
+[2017.10.14-15.43.04:306][537]LogWorld: Bringing up level for play took: 0.006031
+[2017.10.14-15.43.04:307][537]PIE: Play in editor start time for /Game/VehicleAdvCPP/Maps/UEDPIE_0_VehicleAdvExampleMap 0.326
+[2017.10.14-15.43.04:307][537]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap' with GeneratedClass '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap_C' with ClassGeneratedBy '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap'
+[2017.10.14-15.44.36:791][ 82]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap' with GeneratedClass '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap_C' with ClassGeneratedBy '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap'
+[2017.10.14-15.44.36:830][ 82]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap' with GeneratedClass '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap_C' with ClassGeneratedBy '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap'
+[2017.10.14-19.41.06:643][ 71]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AV_ramp_big)
+[2017.10.14-19.41.07:790][ 71]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2017.10.15-16.30.34:279][706]LogD3D11RHI: Error: Direct3DDevice->CreateBuffer(&Desc, NULL, UniformBufferResource.GetInitReference()) failed 
+ at D:\Build\++UE4+Release-4.17+Compile\Sync\Engine\Source\Runtime\Windows\D3D11RHI\Private\D3D11UniformBuffer.cpp:159 
+ with error DXGI_ERROR_DEVICE_REMOVED DXGI_ERROR_DEVICE_REMOVED
+[2017.10.15-16.30.34:321][706]LogWindows: Windows GetLastError: The operation completed successfully. (0)

@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\CarProject.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{B04F1B39-B71C-4182-BF95-0A450BF91E4A}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\CarProject.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\CarProjectEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{BDFE05BE-A54B-4B3B-B31F-1F1F269D0EAA}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\CarProject">
+      <UniqueIdentifier>{5E3D16F6-8F91-4CEB-957C-B78F36F559B7}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\CarProject\CarProject.Build.cs">
+      <Filter>Source\CarProject</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\CarProject\CarProject.cpp">
+      <Filter>Source\CarProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CarProject\CarProject.h">
+      <Filter>Source\CarProject</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CarProject\CarProjectGameMode.cpp">
+      <Filter>Source\CarProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CarProject\CarProjectGameMode.h">
+      <Filter>Source\CarProject</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CarProject\CarProjectHud.cpp">
+      <Filter>Source\CarProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CarProject\CarProjectHud.h">
+      <Filter>Source\CarProject</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CarProject\CarProjectPawn.cpp">
+      <Filter>Source\CarProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CarProject\CarProjectPawn.h">
+      <Filter>Source\CarProject</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CarProject\CarProjectWheelFront.cpp">
+      <Filter>Source\CarProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CarProject\CarProjectWheelFront.h">
+      <Filter>Source\CarProject</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CarProject\CarProjectWheelRear.cpp">
+      <Filter>Source\CarProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CarProject\CarProjectWheelRear.h">
+      <Filter>Source\CarProject</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\..\Aric%27s PC\Documents\Unreal Projects\CarProject\Source\CarProject\AProjectile.h">
+      <Filter>Source\CarProject</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\..\Aric%27s PC\Documents\Unreal Projects\CarProject\Source\CarProject\AProjectile.cpp">
+      <Filter>Source\CarProject</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

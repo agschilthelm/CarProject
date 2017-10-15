@@ -1,0 +1,24 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-CarProject.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Program Files\Epic Games\UE_4.17\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h.obj"
+"C:\Users\Aric's PC\Documents\Unreal Projects\CarProject\Intermediate\Build\Win64\UE4Editor\Development\CarProject\CarProject.cpp.obj"
+"C:\Users\Aric's PC\Documents\Unreal Projects\CarProject\Intermediate\Build\Win64\UE4Editor\Development\CarProject\CarProjectGameMode.cpp.obj"
+"C:\Users\Aric's PC\Documents\Unreal Projects\CarProject\Intermediate\Build\Win64\UE4Editor\Development\CarProject\CarProjectHud.cpp.obj"
+"C:\Users\Aric's PC\Documents\Unreal Projects\CarProject\Intermediate\Build\Win64\UE4Editor\Development\CarProject\CarProjectPawn.cpp.obj"
+"C:\Users\Aric's PC\Documents\Unreal Projects\CarProject\Intermediate\Build\Win64\UE4Editor\Development\CarProject\CarProjectWheelFront.cpp.obj"
+"C:\Users\Aric's PC\Documents\Unreal Projects\CarProject\Intermediate\Build\Win64\UE4Editor\Development\CarProject\CarProjectWheelRear.cpp.obj"
+"C:\Users\Aric's PC\Documents\Unreal Projects\CarProject\Intermediate\Build\Win64\UE4Editor\Development\CarProject\CarProject.init.gen.cpp.obj"
+"C:\Users\Aric's PC\Documents\Unreal Projects\CarProject\Intermediate\Build\Win64\UE4Editor\Development\CarProject\CarProjectGameMode.gen.cpp.obj"
+"C:\Users\Aric's PC\Documents\Unreal Projects\CarProject\Intermediate\Build\Win64\UE4Editor\Development\CarProject\CarProjectHud.gen.cpp.obj"
+"C:\Users\Aric's PC\Documents\Unreal Projects\CarProject\Intermediate\Build\Win64\UE4Editor\Development\CarProject\CarProjectPawn.gen.cpp.obj"
+"C:\Users\Aric's PC\Documents\Unreal Projects\CarProject\Intermediate\Build\Win64\UE4Editor\Development\CarProject\CarProjectWheelFront.gen.cpp.obj"
+"C:\Users\Aric's PC\Documents\Unreal Projects\CarProject\Intermediate\Build\Win64\UE4Editor\Development\CarProject\CarProjectWheelRear.gen.cpp.obj"
+"C:\Program Files\Epic Games\UE_4.17\Engine\Intermediate\Build\Win64\UE4Editor\Development\CarProject\PCLaunch.rc.res"
+"C:\Program Files\Epic Games\UE_4.17\Engine\Intermediate\Build\Win64\UE4Editor\Development\ModuleVersionResource.rc.inl.res"
+/OUT:"C:\Users\Aric's PC\Documents\Unreal Projects\CarProject\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CarProject.lib"
