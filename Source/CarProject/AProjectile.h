@@ -8,7 +8,7 @@
 #include "Components/SphereComponent.h"
 #include "AProjectile.generated.h"
 
-UCLASS()
+UCLASS(Blueprintable)
 class CARPROJECT_API AAProjectile : public AActor
 {
 	GENERATED_BODY()

@@ -217,7 +217,7 @@ void ACarProjectPawn::Fire()
 		FVector MuzzleLocation = CameraLocation + FTransform(CameraRotation).TransformVector(MuzzleOffset);
 		FRotator MuzzleRotation = CameraRotation;
 		// Skew the aim to be slightly upwards.
-		MuzzleRotation.Pitch += 10.0f;
+		//MuzzleRotation.Pitch += 10.0f;
 		// For some reason the gun fires just slightly to the left, this compensates for that
 		MuzzleRotation.Yaw += 1.0f;
 		//GEngine->AddOnScreenDebugMessage(-10, 1.f, FColor::Yellow, FString::Printf(TEXT("Rotation: %f - %f - %f"), CameraRotation.Pitch, CameraRotation.Yaw, CameraRotation.Roll));

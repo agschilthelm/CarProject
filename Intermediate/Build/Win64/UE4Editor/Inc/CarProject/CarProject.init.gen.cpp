@@ -20,7 +20,7 @@ void EmptyLinkFunctionForGeneratedCodeCarProject_init() {}
 			ReturnPackage = CastChecked<UPackage>(StaticFindObjectFast(UPackage::StaticClass(), nullptr, FName(TEXT("/Script/CarProject")), false, false));
 			ReturnPackage->SetPackageFlags(PKG_CompiledIn | 0x00000000);
 			FGuid Guid;
-			Guid.A = 0x593A4DE0;
+			Guid.A = 0x8994C45E;
 			Guid.B = 0x7AF728C2;
 			Guid.C = 0x00000000;
 			Guid.D = 0x00000000;

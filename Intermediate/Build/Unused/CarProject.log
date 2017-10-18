@@ -1,0 +1,15 @@
+﻿  Compiling game modules for hot reload
+  Parsing headers for CarProjectEditor
+    Running UnrealHeaderTool "C:\Users\Aric's PC\Documents\Unreal Projects\CarProject\CarProject.uproject" "C:\Users\Aric's PC\Documents\Unreal Projects\CarProject\Intermediate\Build\Win64\CarProjectEditor\Development\CarProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for CarProjectEditor in 12.0776408 seconds
+  Performing 6 actions (4 in parallel)
+  AProjectile.cpp
+  CarProjectPawn.cpp
+  AProjectile.gen.cpp
+  CarProject.init.gen.cpp
+  [5/6] Link UE4Editor-CarProject-62.dll
+  [6/6] Link UE4Editor-CarProject-62.lib
+     Creating library C:\Users\Aric's PC\Documents\Unreal Projects\CarProject\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CarProject-62.lib and object C:\Users\Aric's PC\Documents\Unreal Projects\CarProject\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CarProject-62.exp
+     Creating library C:\Users\Aric's PC\Documents\Unreal Projects\CarProject\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CarProject-62.suppressed.lib and object C:\Users\Aric's PC\Documents\Unreal Projects\CarProject\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CarProject-62.suppressed.exp
+  Deploying CarProjectEditor Win64 Development...
+  Total build time: 90.35 seconds (Local executor: 64.26 seconds)

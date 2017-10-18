@@ -13,7 +13,7 @@ class UTextRenderComponent;
 class UInputComponent;
 class UAudioComponent;
 
-UCLASS(config=Game)
+UCLASS(config=Game, Blueprintable)
 class ACarProjectPawn : public AWheeledVehicle
 {
 	GENERATED_BODY()
@@ -92,8 +92,8 @@ public:
 		FVector MuzzleOffset;
 
 	// The vehicle's health
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gameplay)
-		FInt128 Health;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = CarPawn)
+		int32 Health;
 
 
 protected:

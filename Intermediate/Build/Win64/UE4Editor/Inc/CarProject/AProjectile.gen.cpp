@@ -86,6 +86,9 @@ void EmptyLinkFunctionForGeneratedCodeAProjectile() {}
 
 				OuterClass->LinkChild(Z_Construct_UFunction_AAProjectile_OnHit());
 
+				UProperty* NewProp_Type = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("Type"), RF_Public|RF_Transient|RF_MarkAsNative) UStructProperty(CPP_PROPERTY_BASE(Type, AAProjectile), 0x0010000000000005, Z_Construct_UScriptStruct_FVector());
+				UProperty* NewProp_Speed = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("Speed"), RF_Public|RF_Transient|RF_MarkAsNative) UStructProperty(CPP_PROPERTY_BASE(Speed, AAProjectile), 0x0010000000000005, Z_Construct_UScriptStruct_FVector());
+				UProperty* NewProp_Damage = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("Damage"), RF_Public|RF_Transient|RF_MarkAsNative) UStructProperty(CPP_PROPERTY_BASE(Damage, AAProjectile), 0x0010000000000005, Z_Construct_UScriptStruct_FVector());
 				UProperty* NewProp_ProjectileMovementComponent = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("ProjectileMovementComponent"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(ProjectileMovementComponent, AAProjectile), 0x00100000000a0009, Z_Construct_UClass_UProjectileMovementComponent_NoRegister());
 				UProperty* NewProp_CollisionComponent = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("CollisionComponent"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(CollisionComponent, AAProjectile), 0x00100000000b0009, Z_Construct_UClass_USphereComponent_NoRegister());
 				OuterClass->AddFunctionToFunctionMapWithOverriddenName(Z_Construct_UFunction_AAProjectile_OnHit(), "OnHit"); // 778436439
@@ -94,8 +97,19 @@ void EmptyLinkFunctionForGeneratedCodeAProjectile() {}
 				OuterClass->StaticLink();
 #if WITH_METADATA
 				UMetaData* MetaData = OuterClass->GetOutermost()->GetMetaData();
+				MetaData->SetValue(OuterClass, TEXT("BlueprintType"), TEXT("true"));
 				MetaData->SetValue(OuterClass, TEXT("IncludePath"), TEXT("AProjectile.h"));
+				MetaData->SetValue(OuterClass, TEXT("IsBlueprintBase"), TEXT("true"));
 				MetaData->SetValue(OuterClass, TEXT("ModuleRelativePath"), TEXT("AProjectile.h"));
+				MetaData->SetValue(NewProp_Type, TEXT("Category"), TEXT("Projectile"));
+				MetaData->SetValue(NewProp_Type, TEXT("ModuleRelativePath"), TEXT("AProjectile.h"));
+				MetaData->SetValue(NewProp_Type, TEXT("ToolTip"), TEXT("The type of projectile. Will effect its appearance/damage/speed etc."));
+				MetaData->SetValue(NewProp_Speed, TEXT("Category"), TEXT("Projectile"));
+				MetaData->SetValue(NewProp_Speed, TEXT("ModuleRelativePath"), TEXT("AProjectile.h"));
+				MetaData->SetValue(NewProp_Speed, TEXT("ToolTip"), TEXT("How fast the projectile goes"));
+				MetaData->SetValue(NewProp_Damage, TEXT("Category"), TEXT("Projectile"));
+				MetaData->SetValue(NewProp_Damage, TEXT("ModuleRelativePath"), TEXT("AProjectile.h"));
+				MetaData->SetValue(NewProp_Damage, TEXT("ToolTip"), TEXT("Determines how much damage a projectile will do when collding with another actor"));
 				MetaData->SetValue(NewProp_ProjectileMovementComponent, TEXT("Category"), TEXT("Movement"));
 				MetaData->SetValue(NewProp_ProjectileMovementComponent, TEXT("EditInline"), TEXT("true"));
 				MetaData->SetValue(NewProp_ProjectileMovementComponent, TEXT("ModuleRelativePath"), TEXT("AProjectile.h"));
@@ -109,7 +123,7 @@ void EmptyLinkFunctionForGeneratedCodeAProjectile() {}
 		check(OuterClass->GetClass());
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AAProjectile, 400119852);
+	IMPLEMENT_CLASS(AAProjectile, 1333935298);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AAProjectile(Z_Construct_UClass_AAProjectile, &AAProjectile::StaticClass, TEXT("/Script/CarProject"), TEXT("AAProjectile"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AAProjectile);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
