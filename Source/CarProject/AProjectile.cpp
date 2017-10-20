@@ -13,21 +13,32 @@ AAProjectile::AAProjectile()
 	CollisionComponent->BodyInstance.SetCollisionProfileName(TEXT("Projectile"));
 	CollisionComponent->OnComponentHit.AddDynamic(this, &AAProjectile::OnHit);
 	// Set the sphere's collision radius.
-	CollisionComponent->InitSphereRadius(15.0f);
+	CollisionComponent->InitSphereRadius(10.0f);
 	// Set the root component to be the collision component.
 	RootComponent = CollisionComponent;
 
 	// Use this component to drive this projectile's movement.
 	ProjectileMovementComponent = CreateDefaultSubobject<UProjectileMovementComponent>(TEXT("ProjectileMovementComponent"));
 	ProjectileMovementComponent->SetUpdatedComponent(CollisionComponent);
-	ProjectileMovementComponent->InitialSpeed = 3000.0f;
-	ProjectileMovementComponent->MaxSpeed = 3000.0f;
-	ProjectileMovementComponent->bRotationFollowsVelocity = true;
-	ProjectileMovementComponent->bShouldBounce = true;
-	ProjectileMovementComponent->Bounciness = 0.3f;
 
 	// Die after 3 seconds.
 	InitialLifeSpan = 3.0f;
+
+	this->Type = "default";
+	InitializeDefaults(Type);
+}
+
+void AAProjectile::InitializeDefaults(FString type_str)
+{
+	if (type_str == "default")
+	{
+		ProjectileMovementComponent->InitialSpeed = 3000.0f;
+		ProjectileMovementComponent->MaxSpeed = 3000.0f;
+		ProjectileMovementComponent->bRotationFollowsVelocity = true;
+		ProjectileMovementComponent->bShouldBounce = false;
+		//ProjectileMovementComponent->Bounciness = 0.3f;
+		this->Damage = 10;
+	}
 }
 
 // Called when the game starts or when spawned

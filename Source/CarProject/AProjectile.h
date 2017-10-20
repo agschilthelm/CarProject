@@ -34,15 +34,15 @@ public:
 
 	// Determines how much damage a projectile will do when collding with another actor
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Projectile)
-		FVector Damage;
+		int32 Damage;
 
 	//How fast the projectile goes
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Projectile)
-		FVector Speed;
+		int32 Speed;
 
 	// The type of projectile. Will effect its appearance/damage/speed etc.
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Projectile)
-		FVector Type;
+		FString Type;
 
 	// Function that initializes the projectile's velocity in the shoot direction.
 	void FireInDirection(const FVector& ShootDirection);
@@ -50,6 +50,9 @@ public:
 	//void OnHit(AActor * OtherActor, UPrimitiveComponent * OtherComponent, FVector NormalImpulse, const FHitResult & Hit);
 	UFUNCTION()
 		void OnHit(UPrimitiveComponent* HitComp, AActor* Actor, UPrimitiveComponent* Other, FVector Impulse, const FHitResult & HitResult);
+
+	UFUNCTION()
+		void InitializeDefaults(FString type_str);
 	
 	
 };

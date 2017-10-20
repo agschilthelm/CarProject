@@ -87,13 +87,24 @@ public:
 	UFUNCTION()
 		void Fire();
 
+	UFUNCTION()
+		void InitializeAttributes(FString type_str);
+
 	// Gun muzzle's offset from the camera lorcation.
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gameplay)
 		FVector MuzzleOffset;
 
 	// The vehicle's health
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = CarPawn)
+		FString Type;
+
+	// The vehicle's health
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = CarPawn)
 		int32 Health;
+
+	// The vehicle's health
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = CarPawn)
+		int32 Speed;
 
 
 protected:

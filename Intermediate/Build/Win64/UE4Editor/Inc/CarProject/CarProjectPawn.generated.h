@@ -15,6 +15,15 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 #define CarProject_Source_CarProject_CarProjectPawn_h_19_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execInitializeAttributes) \
+	{ \
+		P_GET_PROPERTY(UStrProperty,Z_Param_type_str); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		this->InitializeAttributes(Z_Param_type_str); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execFire) \
 	{ \
 		P_FINISH; \
@@ -25,6 +34,15 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 
 #define CarProject_Source_CarProject_CarProjectPawn_h_19_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execInitializeAttributes) \
+	{ \
+		P_GET_PROPERTY(UStrProperty,Z_Param_type_str); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		this->InitializeAttributes(Z_Param_type_str); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execFire) \
 	{ \

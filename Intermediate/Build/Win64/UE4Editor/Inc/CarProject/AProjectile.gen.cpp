@@ -14,8 +14,9 @@ PRAGMA_DISABLE_OPTIMIZATION
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeAProjectile() {}
 // Cross Module References
-	CARPROJECT_API UFunction* Z_Construct_UFunction_AAProjectile_OnHit();
+	CARPROJECT_API UFunction* Z_Construct_UFunction_AAProjectile_InitializeDefaults();
 	CARPROJECT_API UClass* Z_Construct_UClass_AAProjectile();
+	CARPROJECT_API UFunction* Z_Construct_UFunction_AAProjectile_OnHit();
 	ENGINE_API UScriptStruct* Z_Construct_UScriptStruct_FHitResult();
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
 	ENGINE_API UClass* Z_Construct_UClass_UPrimitiveComponent_NoRegister();
@@ -30,9 +31,31 @@ void EmptyLinkFunctionForGeneratedCodeAProjectile() {}
 	{
 		UClass* Class = AAProjectile::StaticClass();
 		static const TNameNativePtrPair<ANSICHAR> AnsiFuncs[] = {
+			{ "InitializeDefaults", (Native)&AAProjectile::execInitializeDefaults },
 			{ "OnHit", (Native)&AAProjectile::execOnHit },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, AnsiFuncs, ARRAY_COUNT(AnsiFuncs));
+	}
+	UFunction* Z_Construct_UFunction_AAProjectile_InitializeDefaults()
+	{
+		struct AProjectile_eventInitializeDefaults_Parms
+		{
+			FString type_str;
+		};
+		UObject* Outer = Z_Construct_UClass_AAProjectile();
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			ReturnFunction = new(EC_InternalUseOnlyConstructor, Outer, TEXT("InitializeDefaults"), RF_Public|RF_Transient|RF_MarkAsNative) UFunction(FObjectInitializer(), nullptr, (EFunctionFlags)0x00020401, 65535, sizeof(AProjectile_eventInitializeDefaults_Parms));
+			UProperty* NewProp_type_str = new(EC_InternalUseOnlyConstructor, ReturnFunction, TEXT("type_str"), RF_Public|RF_Transient|RF_MarkAsNative) UStrProperty(CPP_PROPERTY_BASE(type_str, AProjectile_eventInitializeDefaults_Parms), 0x0010000000000080);
+			ReturnFunction->Bind();
+			ReturnFunction->StaticLink();
+#if WITH_METADATA
+			UMetaData* MetaData = ReturnFunction->GetOutermost()->GetMetaData();
+			MetaData->SetValue(ReturnFunction, TEXT("ModuleRelativePath"), TEXT("AProjectile.h"));
+#endif
+		}
+		return ReturnFunction;
 	}
 	UFunction* Z_Construct_UFunction_AAProjectile_OnHit()
 	{
@@ -84,13 +107,15 @@ void EmptyLinkFunctionForGeneratedCodeAProjectile() {}
 				UObjectForceRegistration(OuterClass);
 				OuterClass->ClassFlags |= (EClassFlags)0x20900080u;
 
+				OuterClass->LinkChild(Z_Construct_UFunction_AAProjectile_InitializeDefaults());
 				OuterClass->LinkChild(Z_Construct_UFunction_AAProjectile_OnHit());
 
-				UProperty* NewProp_Type = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("Type"), RF_Public|RF_Transient|RF_MarkAsNative) UStructProperty(CPP_PROPERTY_BASE(Type, AAProjectile), 0x0010000000000005, Z_Construct_UScriptStruct_FVector());
-				UProperty* NewProp_Speed = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("Speed"), RF_Public|RF_Transient|RF_MarkAsNative) UStructProperty(CPP_PROPERTY_BASE(Speed, AAProjectile), 0x0010000000000005, Z_Construct_UScriptStruct_FVector());
-				UProperty* NewProp_Damage = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("Damage"), RF_Public|RF_Transient|RF_MarkAsNative) UStructProperty(CPP_PROPERTY_BASE(Damage, AAProjectile), 0x0010000000000005, Z_Construct_UScriptStruct_FVector());
+				UProperty* NewProp_Type = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("Type"), RF_Public|RF_Transient|RF_MarkAsNative) UStrProperty(CPP_PROPERTY_BASE(Type, AAProjectile), 0x0010000000000005);
+				UProperty* NewProp_Speed = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("Speed"), RF_Public|RF_Transient|RF_MarkAsNative) UIntProperty(CPP_PROPERTY_BASE(Speed, AAProjectile), 0x0010000000000005);
+				UProperty* NewProp_Damage = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("Damage"), RF_Public|RF_Transient|RF_MarkAsNative) UIntProperty(CPP_PROPERTY_BASE(Damage, AAProjectile), 0x0010000000000005);
 				UProperty* NewProp_ProjectileMovementComponent = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("ProjectileMovementComponent"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(ProjectileMovementComponent, AAProjectile), 0x00100000000a0009, Z_Construct_UClass_UProjectileMovementComponent_NoRegister());
 				UProperty* NewProp_CollisionComponent = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("CollisionComponent"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(CollisionComponent, AAProjectile), 0x00100000000b0009, Z_Construct_UClass_USphereComponent_NoRegister());
+				OuterClass->AddFunctionToFunctionMapWithOverriddenName(Z_Construct_UFunction_AAProjectile_InitializeDefaults(), "InitializeDefaults"); // 1095709773
 				OuterClass->AddFunctionToFunctionMapWithOverriddenName(Z_Construct_UFunction_AAProjectile_OnHit(), "OnHit"); // 778436439
 				static TCppClassTypeInfo<TCppClassTypeTraits<AAProjectile> > StaticCppClassTypeInfo;
 				OuterClass->SetCppTypeInfo(&StaticCppClassTypeInfo);
@@ -123,7 +148,7 @@ void EmptyLinkFunctionForGeneratedCodeAProjectile() {}
 		check(OuterClass->GetClass());
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AAProjectile, 1333935298);
+	IMPLEMENT_CLASS(AAProjectile, 196321099);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AAProjectile(Z_Construct_UClass_AAProjectile, &AAProjectile::StaticClass, TEXT("/Script/CarProject"), TEXT("AAProjectile"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AAProjectile);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

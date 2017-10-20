@@ -19,6 +19,15 @@ struct FHitResult;
 
 #define CarProject_Source_CarProject_AProjectile_h_14_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execInitializeDefaults) \
+	{ \
+		P_GET_PROPERTY(UStrProperty,Z_Param_type_str); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		this->InitializeDefaults(Z_Param_type_str); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execOnHit) \
 	{ \
 		P_GET_OBJECT(UPrimitiveComponent,Z_Param_HitComp); \
@@ -34,6 +43,15 @@ struct FHitResult;
 
 
 #define CarProject_Source_CarProject_AProjectile_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execInitializeDefaults) \
+	{ \
+		P_GET_PROPERTY(UStrProperty,Z_Param_type_str); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		this->InitializeDefaults(Z_Param_type_str); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execOnHit) \
 	{ \

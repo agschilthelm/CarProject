@@ -172,6 +172,17 @@ ACarProjectPawn::ACarProjectPawn()
 
 	bIsLowFriction = false;
 	bInReverseGear = false;
+	this->Type = "default";
+	InitializeAttributes(this->Type);
+}
+
+void ACarProjectPawn::InitializeAttributes(FString type_str)
+{
+	if (type_str == "default")
+	{
+		this->Speed = 1;
+		this->Health = 100;
+	}
 
 }
 
