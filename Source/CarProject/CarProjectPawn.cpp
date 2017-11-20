@@ -221,17 +221,42 @@ void ACarProjectPawn::Fire()
 		FRotator ActorRotation = GetActorRotation();
 
 		GetActorEyesViewPoint(CameraLocation, CameraRotation);
+		CameraLocation = Camera->ComponentToWorld.GetLocation();
 
 		CameraRotation = ActorRotation;
 
 		// Transform MuzzleOffset from camera space to world space.
-		FVector MuzzleLocation = CameraLocation + FTransform(CameraRotation).TransformVector(MuzzleOffset);
+		FVector SocketLocation = GetMesh()->GetSocketLocation("TopWeapon");
+		MuzzleOffset = FVector(50.0f, 0.0f, 0.0f);
+		FVector MuzzleLocation = SocketLocation + FTransform(CameraRotation).TransformVector(MuzzleOffset);
+
 		FRotator MuzzleRotation = CameraRotation;
+		MuzzleRotation.Pitch = Camera->RelativeRotation.Pitch;
+		MuzzleRotation.Pitch -= 10.f;
 		// Skew the aim to be slightly upwards.
-		//MuzzleRotation.Pitch += 10.0f;
 		// For some reason the gun fires just slightly to the left, this compensates for that
 		MuzzleRotation.Yaw += 1.0f;
-		//GEngine->AddOnScreenDebugMessage(-10, 1.f, FColor::Yellow, FString::Printf(TEXT("Rotation: %f - %f - %f"), CameraRotation.Pitch, CameraRotation.Yaw, CameraRotation.Roll));
+		GEngine->AddOnScreenDebugMessage(-10, 1.f, FColor::Yellow, FString::Printf(TEXT("Rotation: %f - %f - %f"), MuzzleRotation.Pitch, MuzzleRotation.Yaw, MuzzleRotation.Roll));
+		
+		FHitResult Hit;
+		GetWorld()->LineTraceSingleByChannel(Hit, CameraLocation, CameraLocation + (CameraLocation * 10000), ECC_Camera);
+		FVector LaunchDirection;
+		FVector AimDir;
+		if (Hit.bBlockingHit && false)
+		{
+			AimDir = Hit.Location - MuzzleLocation;
+			GEngine->AddOnScreenDebugMessage(-10, 1.f, FColor::Yellow, FString::Printf(TEXT("Hit location: %f - %f - %f"), Hit.Location.X, Hit.Location.Y, Hit.Location.Z));
+			GEngine->AddOnScreenDebugMessage(-10, 1.f, FColor::Yellow, FString::Printf(TEXT("Muzzle Location: %f - %f - %f"), MuzzleLocation.X, MuzzleLocation.Y, MuzzleLocation.Z));
+			AimDir.Normalize();
+			AimDir.X = -AimDir.X;
+			AimDir.Y = -AimDir.Y;
+			LaunchDirection = AimDir;
+		}
+		else
+		{
+			// in this case, AimDir is undefined!
+			LaunchDirection = MuzzleRotation.Vector();
+		}
 
 		UWorld* World = GetWorld();
 		if (World)
@@ -244,12 +269,13 @@ void ACarProjectPawn::Fire()
 			if (Projectile)
 			{
 				// Set the projectile's initial trajectory.
-				FVector LaunchDirection = MuzzleRotation.Vector();
+				GEngine->AddOnScreenDebugMessage(-10, 1.f, FColor::Yellow, FString::Printf(TEXT("AimDir: %f - %f - %f"), AimDir.X, AimDir.Y, AimDir.Z));
 				Projectile->FireInDirection(LaunchDirection);
 			}
 		}
 	}
 }
+
 
 void ACarProjectPawn::MoveForward(float Val)
 {
@@ -325,12 +351,23 @@ void ACarProjectPawn::Tick(float Delta)
 #endif // HMD_MODULE_INCLUDED
 	if( bHMDActive == false )
 	{
-		if ( (InputComponent) && (bInCarCameraActive == true ))
+		if (InputComponent)
 		{
-			FRotator HeadRotation = InternalCamera->RelativeRotation;
-			HeadRotation.Pitch += InputComponent->GetAxisValue(LookUpBinding);
-			HeadRotation.Yaw += InputComponent->GetAxisValue(LookRightBinding);
-			InternalCamera->RelativeRotation = HeadRotation;
+			FRotator HeadRotation;
+			if (bInCarCameraActive == true)
+			{
+				HeadRotation = InternalCamera->RelativeRotation;
+				HeadRotation.Pitch += InputComponent->GetAxisValue(LookUpBinding);
+				HeadRotation.Yaw += InputComponent->GetAxisValue(LookRightBinding);
+				InternalCamera->RelativeRotation = HeadRotation;
+			}
+			else
+			{
+				HeadRotation = Camera->RelativeRotation;
+				HeadRotation.Pitch += InputComponent->GetAxisValue(LookUpBinding);
+				//HeadRotation.Yaw += InputComponent->GetAxisValue(LookRightBinding);
+				Camera->RelativeRotation = HeadRotation;
+			}
 		}
 	}	
 

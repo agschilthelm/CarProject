@@ -1,15 +1,14 @@
 ﻿  Compiling game modules for hot reload
   Parsing headers for CarProjectEditor
     Running UnrealHeaderTool "C:\Users\Aric's PC\Documents\Unreal Projects\CarProject\CarProject.uproject" "C:\Users\Aric's PC\Documents\Unreal Projects\CarProject\Intermediate\Build\Win64\CarProjectEditor\Development\CarProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for CarProjectEditor in 12.0776408 seconds
-  Performing 6 actions (4 in parallel)
-  AProjectile.cpp
+  Reflection code generated for CarProjectEditor in 32.8888164 seconds
+  Performing 3 actions (4 in parallel)
   CarProjectPawn.cpp
-  AProjectile.gen.cpp
-  CarProject.init.gen.cpp
-  [5/6] Link UE4Editor-CarProject-62.dll
-  [6/6] Link UE4Editor-CarProject-62.lib
-     Creating library C:\Users\Aric's PC\Documents\Unreal Projects\CarProject\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CarProject-62.lib and object C:\Users\Aric's PC\Documents\Unreal Projects\CarProject\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CarProject-62.exp
-     Creating library C:\Users\Aric's PC\Documents\Unreal Projects\CarProject\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CarProject-62.suppressed.lib and object C:\Users\Aric's PC\Documents\Unreal Projects\CarProject\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CarProject-62.suppressed.exp
+C:\Users\Aric's PC\Documents\Unreal Projects\CarProject\Source\CarProject\CarProjectPawn.cpp(224): warning C4996: 'USceneComponent::ComponentToWorld': ComponentToWorld will be made private, use GetComponentTransform() instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  C:\Program Files\Epic Games\UE_4.17\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(205): note: see declaration of 'USceneComponent::ComponentToWorld'
+  [2/3] Link UE4Editor-CarProject-477.dll
+  [3/3] Link UE4Editor-CarProject-477.lib
+     Creating library C:\Users\Aric's PC\Documents\Unreal Projects\CarProject\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CarProject-477.lib and object C:\Users\Aric's PC\Documents\Unreal Projects\CarProject\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CarProject-477.exp
+     Creating library C:\Users\Aric's PC\Documents\Unreal Projects\CarProject\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CarProject-477.suppressed.lib and object C:\Users\Aric's PC\Documents\Unreal Projects\CarProject\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CarProject-477.suppressed.exp
   Deploying CarProjectEditor Win64 Development...
-  Total build time: 90.35 seconds (Local executor: 64.26 seconds)
+  Total build time: 640.35 seconds (Local executor: 525.98 seconds)

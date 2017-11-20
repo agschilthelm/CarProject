@@ -1,0 +1,965 @@
+﻿Log file open, 11/17/17 12:28:14
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: CarProject
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(1290754755) SRandInit(1290754755).
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.824258
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin RawInput
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3658906
+LogInit: Engine Version: 4.17.2-3658906+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Sep 22 2017 13:47:16
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.11.17-17.28.24:231][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.17-17.28.24:231][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.11.17-17.28.24:289][  0]LogInit: Computer: DESKTOP-I9SMP4L
+[2017.11.17-17.28.24:289][  0]LogInit: User: AricsPC
+[2017.11.17-17.28.24:289][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.11.17-17.28.24:289][  0]LogInit: High frequency timer resolution =2.250001 MHz
+[2017.11.17-17.28.24:290][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.11.17-17.28.24:304][  0]LogMemory: Platform Memory Stats for Windows
+[2017.11.17-17.28.24:304][  0]LogMemory: Process Physical Memory: 277.82 MB used, 277.82 MB peak
+[2017.11.17-17.28.24:304][  0]LogMemory: Process Virtual Memory: 274.17 MB used, 274.17 MB peak
+[2017.11.17-17.28.24:304][  0]LogMemory: Physical Memory: 3197.45 MB used,  4867.81 MB free, 8065.26 MB total
+[2017.11.17-17.28.24:304][  0]LogMemory: Virtual Memory: 706.32 MB used,  4867.81 MB free, 134217728.00 MB total
+[2017.11.17-17.28.30:383][  0]LogInit: Using OS detected language (en-US).
+[2017.11.17-17.28.30:383][  0]LogInit: Using OS detected locale (en-US).
+[2017.11.17-17.28.30:606][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.11.17-17.28.37:660][  0]LogD3D11RHI: D3D11 adapters:
+[2017.11.17-17.28.38:832][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
+[2017.11.17-17.28.38:832][  0]LogD3D11RHI:       4065/0/4032 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.11.17-17.28.38:852][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2017.11.17-17.28.38:852][  0]LogD3D11RHI:       128/0/4032 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.11.17-17.28.38:861][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.11.17-17.28.38:861][  0]LogD3D11RHI:       0/0/4032 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.11.17-17.28.38:861][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.11.17-17.28.38:878][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.11.17-17.28.38:878][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
+[2017.11.17-17.28.38:878][  0]LogWindows: EnumDisplayDevices:
+[2017.11.17-17.28.38:879][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:0 D:1)
+[2017.11.17-17.28.38:880][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2017.11.17-17.28.38:880][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2017.11.17-17.28.38:881][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.11.17-17.28.38:881][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
+[2017.11.17-17.28.38:881][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.11.17-17.28.38:881][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.11.17-17.28.38:881][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.11.17-17.28.39:000][  0]LogD3D11RHI: Async texture creation enabled
+[2017.11.17-17.28.39:177][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.11.17-17.28.39:206][  0]LogShaderCompilers: Guid format shader working directory is -20 characters bigger than the processId version (../../../../../../Users/Aric's PC/Documents/Unreal Projects/CarProject/Intermediate/Shaders/WorkingDirectory/7720/).
+[2017.11.17-17.28.39:206][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Aric's PC/AppData/Local/Temp/UnrealShaderWorkingDir/02B1BBD34193EB6CDCF430B964D5F509/'.
+[2017.11.17-17.28.39:213][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.11.17-17.28.47:150][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.11.17-17.28.47:438][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.11.17-17.28.47:863][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.11.17-17.28.48:141][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.11.17-17.28.48:539][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.11.17-17.28.48:860][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.11.17-17.28.49:170][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.11.17-17.28.49:487][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.11.17-17.28.49:800][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.11.17-17.28.50:097][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.11.17-17.28.50:422][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.11.17-17.28.50:697][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.11.17-17.28.50:979][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.11.17-17.28.51:268][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.11.17-17.28.51:552][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.11.17-17.28.52:279][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.11.17-17.28.52:279][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.11.17-17.28.52:613][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.11.17-17.28.53:099][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.11.17-17.28.53:261][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.11.17-17.28.53:537][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.11.17-17.28.53:879][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.11.17-17.28.54:142][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.11.17-17.28.54:431][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.11.17-17.28.54:431][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.11.17-17.28.59:070][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.11.17-17.29.01:491][  0]LogDerivedDataCache: Loaded boot cache 2.42s 93MB C:/Users/Aric's PC/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.11.17-17.29.01:491][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Aric's PC/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.11.17-17.29.01:492][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Aric's PC/Documents/Unreal Projects/CarProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.11.17-17.29.01:492][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.11.17-17.29.01:492][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Aric's PC/Documents/Unreal Projects/CarProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.11.17-17.29.01:492][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.11.17-17.29.01:637][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.11.17-17.29.01:701][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Aric's PC/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.11.17-17.29.01:765][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.11.17-17.29.01:770][  0]LogSlate: Using Freetype 2.6.0
+[2017.11.17-17.29.01:838][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.11.17-17.29.01:838][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.11.17-17.29.09:242][  0]LogAssetRegistry: FAssetRegistry took 0.0464 seconds to start up
+[2017.11.17-17.29.09:915][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.17-17.29.11:218][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.11.17-17.29.14:104][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.11.17-17.29.14:396][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.11.17-17.29.14:397][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.11.17-17.29.14:397][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.11.17-17.29.14:397][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.11.17-17.29.14:397][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.11.17-17.29.16:489][  0]LogNetVersion: CarProject , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3093238724)
+[2017.11.17-17.29.18:019][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.519070 seconds
+[2017.11.17-17.29.18:036][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.11.17-17.29.18:036][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
+[2017.11.17-17.29.18:036][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.11.17-17.29.18:486][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.11.17-17.29.59:506][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.11.17-17.29.59:843][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.11.17-17.30.06:599][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.11.17-17.30.09:741][  0]SourceControl: Source control is disabled
+[2017.11.17-17.30.09:741][  0]SourceControl: Source control is disabled
+[2017.11.17-17.30.10:183][  0]SourceControl: Source control is disabled
+[2017.11.17-17.30.10:567][  0]SourceControl: Source control is disabled
+[2017.11.17-17.30.15:238][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.11.17-17.30.16:786][  0]LogOcInput: OculusInput pre-init called
+[2017.11.17-17.30.18:375][  0]LogEngine: Initializing Engine...
+[2017.11.17-17.30.18:396][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.11.17-17.30.19:662][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.11.17-17.30.19:664][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.11.17-17.30.20:396][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.11.17-17.30.20:455][  0]LogInit: XAudio2 using 'ASUS VN248 (Intel(R) Display Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.17-17.30.20:538][  0]LogInit: FAudioDevice initialized.
+[2017.11.17-17.30.20:783][  0]LogDerivedDataCache: Saved boot cache 0.24s 93MB C:/Users/Aric's PC/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.11.17-17.30.20:805][  0]LogInit: Texture streaming: Enabled
+[2017.11.17-17.30.21:481][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.11.17-17.30.23:700][  0]LogInit: Transaction tracking system initialized
+[2017.11.17-17.30.26:429][  0]BlueprintLog: New page: Editor Load
+[2017.11.17-17.30.32:717][  0]LocalizationService: Localization service is disabled
+[2017.11.17-17.30.37:616][  0]LogConsoleResponse: Display: 
+[2017.11.17-17.30.40:463][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.11.17-17.30.40:464][  0]LogCook: Display: Mobile HDR setting 1
+[2017.11.17-17.30.40:489][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Aric's PC/Documents/Unreal Projects/CarProject/Content/' took 0.03s
+[2017.11.17-17.30.40:489][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.11.17-17.30.52:756][  0]SourceControl: Source control is disabled
+[2017.11.17-17.30.52:804][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Aric's PC/Documents/Unreal Projects/CarProject/Content/VehicleAdvCPP/Maps/VehicleAdvExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.11.17-17.30.52:861][  0]LightingResults: New page: Lighting Build
+[2017.11.17-17.30.53:148][  0]MapCheck: New page: Map Check
+[2017.11.17-17.30.53:148][  0]LightingResults: New page: Lighting Build
+[2017.11.17-17.31.06:595][  0]LogAIModule: Creating AISystem for world VehicleAdvExampleMap
+[2017.11.17-17.31.10:699][  0]LogMaterial: Warning: Material /Game/VehicleAdv/Materials/MasterGrid.MasterGrid needed to have new flag set bUsedWithSkeletalMesh !
+[2017.11.17-17.31.10:720][  0]LogMaterial: Missing cached shader map for material MasterGrid, compiling. 
+[2017.11.17-17.31.10:967][  0]MapCheck: Warning: MasterGrid Material /Game/VehicleAdv/Materials/MasterGrid.MasterGrid was missing the usage flag bUsedWithSkeletalMesh. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2017.11.17-17.31.10:985][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.11.17-17.31.11:163][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.11.17-17.31.11:435][  0]MapCheck: Map check complete: 0 Error(s), 1 Warning(s), took 272.127ms to complete.
+[2017.11.17-17.31.11:501][  0]LogFileHelpers: Loading map 'VehicleAdvExampleMap' took 18.698
+[2017.11.17-17.31.14:152][  0]LogCollectionManager: Loaded 0 collections in 0.011485 seconds
+[2017.11.17-17.31.15:700][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Aric's PC/Documents/Unreal Projects/CarProject/Saved/Collections/' took 0.01s
+[2017.11.17-17.31.15:701][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Aric's PC/Documents/Unreal Projects/CarProject/Content/Developers/AricsPC/Collections/' took 0.01s
+[2017.11.17-17.31.15:701][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Aric's PC/Documents/Unreal Projects/CarProject/Content/Collections/' took 0.01s
+[2017.11.17-17.31.15:701][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.11.17-17.31.15:747][  0]LogContentBrowser: Native class hierarchy populated in 0.0431 seconds. Added 2394 classes and 505 folders.
+[2017.11.17-17.31.16:410][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0094 seconds. Added 0 classes and 0 folders.
+[2017.11.17-17.31.24:010][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0090 seconds. Added 0 classes and 0 folders.
+[2017.11.17-17.31.24:297][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0091 seconds. Added 1 classes and 2 folders.
+[2017.11.17-17.31.24:859][  0]LogSlate: Took 0.016528 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.11.17-17.31.24:886][  0]LogSlate: Took 0.019349 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.11.17-17.31.24:931][  0]LogSlate: Took 0.011663 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.11.17-17.31.25:735][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2017.11.17-17.31.27:066][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0090 seconds. Added 1 classes and 2 folders.
+[2017.11.17-17.31.27:066][  0]LogLoad: (Engine Initialization) Total time: 205.46 seconds
+[2017.11.17-17.31.27:066][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.11.17-17.31.27:068][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.11.17-17.31.27:068][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.11.17-17.31.27:411][  0]LogRawInputWindows: Warning: Found device 0 devices
+[2017.11.17-17.31.27:411][  0]LogRawInputWindows: Warning: Found device 0 devices
+[2017.11.17-17.31.27:411][  0]LogRawInputWindows: Warning: Device was registered succesfully but not connected (Usage:4 UsagePage:1
+[2017.11.17-17.31.27:412][  0]LogRawInputWindows: Warning: Found device 1 devices
+[2017.11.17-17.31.27:412][  0]LogRawInputWindows: Warning: Device was registered succesfully but not connected (Usage:5 UsagePage:1
+[2017.11.17-17.31.27:432][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.11.17-17.31.27:557][  0]LogSlate: Took 0.042103 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.17-17.31.28:763][  4]LogAssetRegistry: Asset discovery search completed in 139.5460 seconds
+[2017.11.17-17.31.28:769][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.11.17-17.31.28:769][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000161 seconds (updated 0 objects)
+[2017.11.17-17.34.03:665][406]LogAudio: Warning: Current Audio Device with ID {0.0.0.00000000}.{d3602565-791a-4cae-9959-33ec82f79ba2} was removed. Shutting down audio device.
+[2017.11.17-17.34.03:665][406]LogAudio: Warning: Current Audio Device with ID {0.0.0.00000000}.{d3602565-791a-4cae-9959-33ec82f79ba2} was removed. Shutting down audio device.
+[2017.11.17-17.36.37:798][790]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.17-17.36.37:867][790]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap' with GeneratedClass '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap_C' with ClassGeneratedBy '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap'
+[2017.11.17-17.36.37:867][790]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.17-17.36.37:936][790]PIE: New page: PIE session: VehicleAdvExampleMap (Nov 17, 2017, 7:36:37 AM)
+[2017.11.17-17.36.37:936][790]LogPlayLevel: Creating play world package: /Game/VehicleAdvCPP/Maps/UEDPIE_0_VehicleAdvExampleMap
+[2017.11.17-17.36.37:976][790]LogPlayLevel: PIE: StaticDuplicateObject took: (0.039811s)
+[2017.11.17-17.36.37:976][790]LogAIModule: Creating AISystem for world VehicleAdvExampleMap
+[2017.11.17-17.36.37:977][790]LogPlayLevel: PIE: World Init took: (0.001131s)
+[2017.11.17-17.36.37:977][790]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap to /Game/VehicleAdvCPP/Maps/UEDPIE_0_VehicleAdvExampleMap.VehicleAdvExampleMap (0.041349s)
+[2017.11.17-17.36.38:007][790]LogInit: XAudio2 using 'ASUS VN248 (Intel(R) Display Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.17-17.36.38:029][790]LogInit: FAudioDevice initialized.
+[2017.11.17-17.36.38:087][790]LogLoad: Game class is 'CarProjectGameMode'
+[2017.11.17-17.36.38:101][790]LogWorld: Bringing World /Game/VehicleAdvCPP/Maps/UEDPIE_0_VehicleAdvExampleMap.VehicleAdvExampleMap up for play (max tick rate 0) at 2017.11.17-12.36.38
+[2017.11.17-17.36.38:102][790]LogWorld: Bringing up level for play took: 0.010621
+[2017.11.17-17.36.38:357][790]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0029 seconds. Added 11 classes and 0 folders.
+[2017.11.17-17.36.38:374][790]PIE: Play in editor start time for /Game/VehicleAdvCPP/Maps/UEDPIE_0_VehicleAdvExampleMap -0.218
+[2017.11.17-17.36.38:374][790]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap' with GeneratedClass '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap_C' with ClassGeneratedBy '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap'
+[2017.11.17-17.37.11:765][723]LogBlueprintUserMessages: [TP_VehicleAdvPawn5] 95
+[2017.11.17-17.37.11:765][723]LogBlueprintUserMessages: [BP_MyCarProjectPawn_5] 95
+[2017.11.17-17.37.12:065][740]LogBlueprintUserMessages: [TP_VehicleAdvPawn5] 90
+[2017.11.17-17.37.12:065][740]LogBlueprintUserMessages: [BP_MyCarProjectPawn_5] 90
+[2017.11.17-17.37.12:618][771]LogBlueprintUserMessages: [BP_MyCarProjectPawn_5] 80
+[2017.11.17-17.37.14:324][869]LogBlueprintUserMessages: [BP_MyCarProjectPawn_5] 70
+[2017.11.17-17.37.14:606][885]LogBlueprintUserMessages: [BP_MyCarProjectPawn_5] 60
+[2017.11.17-17.37.14:869][900]LogBlueprintUserMessages: [BP_MyCarProjectPawn_5] 50
+[2017.11.17-17.37.27:180][613]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap' with GeneratedClass '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap_C' with ClassGeneratedBy '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap'
+[2017.11.17-17.37.27:225][613]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap' with GeneratedClass '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap_C' with ClassGeneratedBy '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap'
+[2017.11.17-17.40.07:940][261]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.17-17.40.07:968][261]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap' with GeneratedClass '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap_C' with ClassGeneratedBy '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap'
+[2017.11.17-17.40.07:968][261]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.17-17.40.07:969][261]PIE: New page: PIE session: VehicleAdvExampleMap (Nov 17, 2017, 7:40:07 AM)
+[2017.11.17-17.40.07:969][261]LogPlayLevel: Creating play world package: /Game/VehicleAdvCPP/Maps/UEDPIE_0_VehicleAdvExampleMap
+[2017.11.17-17.40.07:996][261]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026809s)
+[2017.11.17-17.40.07:997][261]LogAIModule: Creating AISystem for world VehicleAdvExampleMap
+[2017.11.17-17.40.07:997][261]LogPlayLevel: PIE: World Init took: (0.001215s)
+[2017.11.17-17.40.07:997][261]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap to /Game/VehicleAdvCPP/Maps/UEDPIE_0_VehicleAdvExampleMap.VehicleAdvExampleMap (0.028364s)
+[2017.11.17-17.40.08:012][261]LogInit: XAudio2 using 'ASUS VN248 (Intel(R) Display Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.17-17.40.08:033][261]LogInit: FAudioDevice initialized.
+[2017.11.17-17.40.08:101][261]LogLoad: Game class is 'CarProjectGameMode'
+[2017.11.17-17.40.08:109][261]LogWorld: Bringing World /Game/VehicleAdvCPP/Maps/UEDPIE_0_VehicleAdvExampleMap.VehicleAdvExampleMap up for play (max tick rate 0) at 2017.11.17-12.40.08
+[2017.11.17-17.40.08:110][261]LogWorld: Bringing up level for play took: 0.007212
+[2017.11.17-17.40.08:112][261]PIE: Play in editor start time for /Game/VehicleAdvCPP/Maps/UEDPIE_0_VehicleAdvExampleMap -0.479
+[2017.11.17-17.40.08:113][261]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap' with GeneratedClass '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap_C' with ClassGeneratedBy '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap'
+[2017.11.17-17.40.09:193][324]LogBlueprintUserMessages: [BP_MyCarProjectPawn_5] 90
+[2017.11.17-17.40.09:788][361]LogBlueprintUserMessages: [BP_MyCarProjectPawn_5] 80
+[2017.11.17-17.40.10:456][404]LogBlueprintUserMessages: [BP_MyCarProjectPawn_5] 70
+[2017.11.17-17.40.11:841][491]LogBlueprintUserMessages: [BP_MyCarProjectPawn_5] 60
+[2017.11.17-17.40.16:562][788]LogBlueprintUserMessages: [BP_MyCarProjectPawn_5] 50
+[2017.11.17-17.40.17:147][823]LogBlueprintUserMessages: [BP_MyCarProjectPawn_5] 40
+[2017.11.17-17.40.17:465][842]LogBlueprintUserMessages: [BP_MyCarProjectPawn_5] 30
+[2017.11.17-17.40.53:099][961]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap' with GeneratedClass '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap_C' with ClassGeneratedBy '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap'
+[2017.11.17-17.40.53:149][961]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap' with GeneratedClass '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap_C' with ClassGeneratedBy '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap'
+[2017.11.17-17.41.03:756][157]Candidate modules for hot reload:
+[2017.11.17-17.41.03:756][157]  CarProject
+[2017.11.17-17.41.03:757][157]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe CarProject -ModuleWithSuffix CarProject 4817 Win64 Development -editorrecompile -canskiplink "C:/Users/Aric's PC/Documents/Unreal Projects/CarProject/CarProject.uproject" ]
+[2017.11.17-17.41.03:760][157]Warning: Starting HotReload took  0.2s.
+[2017.11.17-17.50.39:422][267]CompilerResultsLog: New page: Compilation - Nov 17, 2017, 7:50:39 AM
+[2017.11.17-17.50.39:422][267]CompilerResultsLog: Compiling game modules for hot reload
+[2017.11.17-17.50.39:422][267]CompilerResultsLog: Parsing headers for CarProjectEditor
+[2017.11.17-17.50.39:422][267]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Aric's PC\Documents\Unreal Projects\CarProject\CarProject.uproject" "C:\Users\Aric's PC\Documents\Unreal Projects\CarProject\Intermediate\Build\Win64\CarProjectEditor\Development\CarProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.11.17-17.50.39:422][267]CompilerResultsLog: Reflection code generated for CarProjectEditor in 61.7285938 seconds
+[2017.11.17-17.50.39:422][267]CompilerResultsLog: Performing 3 actions (4 in parallel)
+[2017.11.17-17.50.39:422][267]CompilerResultsLog: CarProjectPawn.cpp
+[2017.11.17-17.50.39:422][267]CompilerResultsLog: [2/3] Link UE4Editor-CarProject-4817.dll
+[2017.11.17-17.50.39:422][267]CompilerResultsLog: [3/3] Link UE4Editor-CarProject-4817.lib
+[2017.11.17-17.50.39:422][267]CompilerResultsLog:    Creating library C:\Users\Aric's PC\Documents\Unreal Projects\CarProject\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CarProject-4817.lib and object C:\Users\Aric's PC\Documents\Unreal Projects\CarProject\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CarProject-4817.exp
+[2017.11.17-17.50.39:422][267]CompilerResultsLog:    Creating library C:\Users\Aric's PC\Documents\Unreal Projects\CarProject\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CarProject-4817.suppressed.lib and object C:\Users\Aric's PC\Documents\Unreal Projects\CarProject\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CarProject-4817.suppressed.exp
+[2017.11.17-17.50.39:422][267]CompilerResultsLog: Total build time: 573.45 seconds (Local executor: 427.29 seconds)
+[2017.11.17-17.50.39:422][267]LogMainFrame: MainFrame: Module compiling took 575.691 seconds
+[2017.11.17-17.50.41:700][267]LogContentBrowser: Native class hierarchy updated for 'CarProject' in 0.0032 seconds. Added 6 classes and 2 folders.
+[2017.11.17-17.50.41:704][267]Display: HotReload successful (4 functions remapped  0 scriptstructs remapped)
+[2017.11.17-17.50.41:995][267]LogContentBrowser: Native class hierarchy populated in 0.0121 seconds. Added 2396 classes and 509 folders.
+[2017.11.17-17.50.42:039][267]Display: HotReload took 578.4s.
+[2017.11.17-17.51.08:963][893]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.17-17.51.08:991][893]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap' with GeneratedClass '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap_C' with ClassGeneratedBy '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap'
+[2017.11.17-17.51.08:992][893]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.17-17.51.08:992][893]PIE: New page: PIE session: VehicleAdvExampleMap (Nov 17, 2017, 7:51:08 AM)
+[2017.11.17-17.51.08:992][893]LogPlayLevel: Creating play world package: /Game/VehicleAdvCPP/Maps/UEDPIE_0_VehicleAdvExampleMap
+[2017.11.17-17.51.09:020][893]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027650s)
+[2017.11.17-17.51.09:021][893]LogAIModule: Creating AISystem for world VehicleAdvExampleMap
+[2017.11.17-17.51.09:021][893]LogPlayLevel: PIE: World Init took: (0.001309s)
+[2017.11.17-17.51.09:021][893]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap to /Game/VehicleAdvCPP/Maps/UEDPIE_0_VehicleAdvExampleMap.VehicleAdvExampleMap (0.029323s)
+[2017.11.17-17.51.09:036][893]LogInit: XAudio2 using 'ASUS VN248 (Intel(R) Display Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.17-17.51.09:342][893]LogInit: FAudioDevice initialized.
+[2017.11.17-17.51.09:374][893]LogLoad: Game class is 'CarProjectGameMode'
+[2017.11.17-17.51.09:386][893]LogWorld: Bringing World /Game/VehicleAdvCPP/Maps/UEDPIE_0_VehicleAdvExampleMap.VehicleAdvExampleMap up for play (max tick rate 0) at 2017.11.17-12.51.09
+[2017.11.17-17.51.09:388][893]LogWorld: Bringing up level for play took: 0.008822
+[2017.11.17-17.51.09:391][893]PIE: Play in editor start time for /Game/VehicleAdvCPP/Maps/UEDPIE_0_VehicleAdvExampleMap 0.8
+[2017.11.17-17.51.09:391][893]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap' with GeneratedClass '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap_C' with ClassGeneratedBy '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap'
+[2017.11.17-17.51.10:357][945]LogBlueprintUserMessages: [BP_MyCarProjectPawn_5] 90
+[2017.11.17-17.52.21:406][111]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap' with GeneratedClass '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap_C' with ClassGeneratedBy '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap'
+[2017.11.17-17.52.21:453][111]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap' with GeneratedClass '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap_C' with ClassGeneratedBy '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap'
+[2017.11.17-17.52.52:699][735]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.17-17.52.52:740][735]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap' with GeneratedClass '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap_C' with ClassGeneratedBy '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap'
+[2017.11.17-17.52.52:740][735]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.17-17.52.52:741][735]PIE: New page: PIE session: VehicleAdvExampleMap (Nov 17, 2017, 7:52:52 AM)
+[2017.11.17-17.52.52:741][735]LogPlayLevel: Creating play world package: /Game/VehicleAdvCPP/Maps/UEDPIE_0_VehicleAdvExampleMap
+[2017.11.17-17.52.52:799][735]LogPlayLevel: PIE: StaticDuplicateObject took: (0.056835s)
+[2017.11.17-17.52.52:800][735]LogAIModule: Creating AISystem for world VehicleAdvExampleMap
+[2017.11.17-17.52.52:801][735]LogPlayLevel: PIE: World Init took: (0.001744s)
+[2017.11.17-17.52.52:801][735]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap to /Game/VehicleAdvCPP/Maps/UEDPIE_0_VehicleAdvExampleMap.VehicleAdvExampleMap (0.059131s)
+[2017.11.17-17.52.52:830][735]LogInit: XAudio2 using 'ASUS VN248 (Intel(R) Display Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.17-17.52.52:869][735]LogInit: FAudioDevice initialized.
+[2017.11.17-17.52.52:908][735]LogLoad: Game class is 'CarProjectGameMode'
+[2017.11.17-17.52.52:924][735]LogWorld: Bringing World /Game/VehicleAdvCPP/Maps/UEDPIE_0_VehicleAdvExampleMap.VehicleAdvExampleMap up for play (max tick rate 0) at 2017.11.17-12.52.52
+[2017.11.17-17.52.52:926][735]LogWorld: Bringing up level for play took: 0.014324
+[2017.11.17-17.52.52:932][735]PIE: Play in editor start time for /Game/VehicleAdvCPP/Maps/UEDPIE_0_VehicleAdvExampleMap 0.341
+[2017.11.17-17.52.52:933][735]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap' with GeneratedClass '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap_C' with ClassGeneratedBy '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap'
+[2017.11.17-17.53.32:310][ 66]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap' with GeneratedClass '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap_C' with ClassGeneratedBy '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap'
+[2017.11.17-17.53.32:350][ 66]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap' with GeneratedClass '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap_C' with ClassGeneratedBy '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap'
+[2017.11.17-18.10.18:754][119]LogSlate: Took 0.024382 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.17-18.10.19:361][119]LogSlate: Took 0.019613 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.11.17-18.10.23:063][119]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0043 seconds. Added 113 classes and 0 folders.
+[2017.11.17-18.10.24:987][119]LogBlueprintUserMessages: [BP_MyCarProjectPawn_C_8] 95
+[2017.11.17-18.10.24:987][119]LogBlueprintUserMessages: [BP_MyCarProjectPawn_C_8] 90
+[2017.11.17-18.10.25:038][119]LogSlate: Took 0.026491 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.11.17-18.10.25:903][120]LogSlate: Took 0.028613 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.11.17-18.10.53:132][196]LogRenderer: Reallocating scene render targets to support 1396x900 Format 10 NumSamples 1 (Frame:1).
+[2017.11.17-18.11.07:309][718]LogBlueprintUserMessages: [BP_MyCarProjectPawn_C_10] 95
+[2017.11.17-18.11.07:309][718]LogBlueprintUserMessages: [BP_MyCarProjectPawn_C_10] 90
+[2017.11.17-18.11.58:555][736]Candidate modules for hot reload:
+[2017.11.17-18.11.58:555][736]  CarProject
+[2017.11.17-18.11.58:555][736]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe CarProject -ModuleWithSuffix CarProject 9925 Win64 Development -editorrecompile -canskiplink "C:/Users/Aric's PC/Documents/Unreal Projects/CarProject/CarProject.uproject" ]
+[2017.11.17-18.11.58:958][736]Warning: Starting HotReload took  0.5s.
+[2017.11.17-18.12.20:642][694]LogSlate: Took 0.000281 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.17-18.12.29:739][101]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap' took 0.030
+[2017.11.17-18.12.29:765][101]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/BP_MyCarProjectPawn] ([1] browsable assets)...
+[2017.11.17-18.12.29:807][101]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BP_MyCarProjectPawn.BP_MyCarProjectPawn]
+[2017.11.17-18.12.29:807][101]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_MyCarProjectPawn]
+[2017.11.17-18.12.30:247][101]LogSavePackage: Save=219.90ms
+[2017.11.17-18.12.30:247][101]LogSavePackage: Moving '../../../../../../Users/Aric's PC/Documents/Unreal Projects/CarProject/Saved/BP_MyCarProjectPawn_Auto1F4EFB321424BD30CE25E489B478F579A.tmp' to '../../../../../../Users/Aric's PC/Documents/Unreal Projects/CarProject/Saved/Autosaves/Game/Blueprints/BP_MyCarProjectPawn_Auto1.uasset'
+[2017.11.17-18.12.30:250][101]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Aric's PC/Documents/Unreal Projects/CarProject/Saved/Autosaves/Game/Blueprints/BP_MyCarProjectPawn_Auto1.uasset
+[2017.11.17-18.12.30:251][101]LogFileHelpers: Auto-saving content packages took 0.509
+[2017.11.17-18.22.31:620][154]LogSavePackage: Save=607.81ms
+[2017.11.17-18.22.31:620][154]LogSavePackage: Moving '../../../../../../Users/Aric's PC/Documents/Unreal Projects/CarProject/Saved/VehicleAdvExampleMap_Auto29FC7DF0247F560FD4BC057862A99309A.tmp' to '../../../../../../Users/Aric's PC/Documents/Unreal Projects/CarProject/Saved/Autosaves/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap_Auto2.umap'
+[2017.11.17-18.22.31:624][154]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Aric's PC/Documents/Unreal Projects/CarProject/Saved/Autosaves/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap_Auto2.umap
+[2017.11.17-18.22.31:696][154]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap' took 0.760
+[2017.11.17-18.22.31:696][154]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.760
+[2017.11.17-18.22.31:700][154]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/BP_MyCarProjectPawn] ([1] browsable assets)...
+[2017.11.17-18.22.31:742][154]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BP_MyCarProjectPawn.BP_MyCarProjectPawn]
+[2017.11.17-18.22.31:742][154]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_MyCarProjectPawn]
+[2017.11.17-18.22.31:950][154]LogSavePackage: Save=195.12ms
+[2017.11.17-18.22.31:950][154]LogSavePackage: Moving '../../../../../../Users/Aric's PC/Documents/Unreal Projects/CarProject/Saved/BP_MyCarProjectPawn_Auto2A52D296648119CD1BE91DB8A2B345F23.tmp' to '../../../../../../Users/Aric's PC/Documents/Unreal Projects/CarProject/Saved/Autosaves/Game/Blueprints/BP_MyCarProjectPawn_Auto2.uasset'
+[2017.11.17-18.22.31:953][154]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Aric's PC/Documents/Unreal Projects/CarProject/Saved/Autosaves/Game/Blueprints/BP_MyCarProjectPawn_Auto2.uasset
+[2017.11.17-18.22.31:953][154]LogFileHelpers: Auto-saving content packages took 0.254
+[2017.11.17-18.22.31:989][155]CompilerResultsLog: New page: Compilation - Nov 17, 2017, 8:22:31 AM
+[2017.11.17-18.22.31:990][155]CompilerResultsLog: Compiling game modules for hot reload
+[2017.11.17-18.22.31:990][155]CompilerResultsLog: Parsing headers for CarProjectEditor
+[2017.11.17-18.22.31:990][155]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Aric's PC\Documents\Unreal Projects\CarProject\CarProject.uproject" "C:\Users\Aric's PC\Documents\Unreal Projects\CarProject\Intermediate\Build\Win64\CarProjectEditor\Development\CarProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.11.17-18.22.31:991][155]CompilerResultsLog: Reflection code generated for CarProjectEditor in 29.8148107 seconds
+[2017.11.17-18.22.31:991][155]CompilerResultsLog: Performing 3 actions (4 in parallel)
+[2017.11.17-18.22.31:991][155]CompilerResultsLog: CarProjectPawn.cpp
+[2017.11.17-18.22.31:991][155]CompilerResultsLog: [2/3] Link UE4Editor-CarProject-9925.dll
+[2017.11.17-18.22.31:992][155]CompilerResultsLog: [3/3] Link UE4Editor-CarProject-9925.lib
+[2017.11.17-18.22.31:992][155]CompilerResultsLog:    Creating library C:\Users\Aric's PC\Documents\Unreal Projects\CarProject\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CarProject-9925.lib and object C:\Users\Aric's PC\Documents\Unreal Projects\CarProject\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CarProject-9925.exp
+[2017.11.17-18.22.31:993][155]CompilerResultsLog:    Creating library C:\Users\Aric's PC\Documents\Unreal Projects\CarProject\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CarProject-9925.suppressed.lib and object C:\Users\Aric's PC\Documents\Unreal Projects\CarProject\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CarProject-9925.suppressed.exp
+[2017.11.17-18.22.31:996][155]CompilerResultsLog: Total build time: 630.55 seconds (Local executor: 524.18 seconds)
+[2017.11.17-18.22.31:996][155]LogMainFrame: MainFrame: Module compiling took 633.449 seconds
+[2017.11.17-18.22.52:965][155]LogContentBrowser: Native class hierarchy updated for 'CarProject' in 0.0028 seconds. Added 6 classes and 2 folders.
+[2017.11.17-18.22.52:968][155]Display: HotReload successful (4 functions remapped  0 scriptstructs remapped)
+[2017.11.17-18.22.53:306][155]LogContentBrowser: Native class hierarchy populated in 0.0142 seconds. Added 2396 classes and 509 folders.
+[2017.11.17-18.22.53:306][155]Display: HotReload took 654.8s.
+[2017.11.17-18.32.32:139][667]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap' took 0.060
+[2017.11.17-18.32.32:142][667]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/BP_MyCarProjectPawn] ([1] browsable assets)...
+[2017.11.17-18.32.32:161][667]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BP_MyCarProjectPawn.BP_MyCarProjectPawn]
+[2017.11.17-18.32.32:161][667]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_MyCarProjectPawn]
+[2017.11.17-18.32.32:478][667]LogSavePackage: Save=180.45ms
+[2017.11.17-18.32.32:478][667]LogSavePackage: Moving '../../../../../../Users/Aric's PC/Documents/Unreal Projects/CarProject/Saved/BP_MyCarProjectPawn_Auto364F7A5464B2C855C14590AAD9E9F2D59.tmp' to '../../../../../../Users/Aric's PC/Documents/Unreal Projects/CarProject/Saved/Autosaves/Game/Blueprints/BP_MyCarProjectPawn_Auto3.uasset'
+[2017.11.17-18.32.32:481][667]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Aric's PC/Documents/Unreal Projects/CarProject/Saved/Autosaves/Game/Blueprints/BP_MyCarProjectPawn_Auto3.uasset
+[2017.11.17-18.32.32:481][667]LogFileHelpers: Auto-saving content packages took 0.341
+[2017.11.17-18.43.02:222][591]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap' took 0.380
+[2017.11.17-18.43.02:226][591]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/BP_MyCarProjectPawn] ([1] browsable assets)...
+[2017.11.17-18.43.02:268][591]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BP_MyCarProjectPawn.BP_MyCarProjectPawn]
+[2017.11.17-18.43.02:268][591]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_MyCarProjectPawn]
+[2017.11.17-18.43.02:425][591]LogSavePackage: Save=140.99ms
+[2017.11.17-18.43.02:425][591]LogSavePackage: Moving '../../../../../../Users/Aric's PC/Documents/Unreal Projects/CarProject/Saved/BP_MyCarProjectPawn_Auto44D27C2944007A9FAE2ACD2B41DE5F7A5.tmp' to '../../../../../../Users/Aric's PC/Documents/Unreal Projects/CarProject/Saved/Autosaves/Game/Blueprints/BP_MyCarProjectPawn_Auto4.uasset'
+[2017.11.17-18.43.02:430][591]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Aric's PC/Documents/Unreal Projects/CarProject/Saved/Autosaves/Game/Blueprints/BP_MyCarProjectPawn_Auto4.uasset
+[2017.11.17-18.43.02:430][591]LogFileHelpers: Auto-saving content packages took 0.206
+[2017.11.17-18.53.03:029][ 44]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap' took 0.035
+[2017.11.17-18.53.03:032][ 44]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/BP_MyCarProjectPawn] ([1] browsable assets)...
+[2017.11.17-18.53.03:032][ 44]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_MyCarProjectPawn]
+[2017.11.17-18.53.03:183][ 44]LogSavePackage: Save=133.14ms
+[2017.11.17-18.53.03:183][ 44]LogSavePackage: Moving '../../../../../../Users/Aric's PC/Documents/Unreal Projects/CarProject/Saved/BP_MyCarProjectPawn_Auto5D3F434994FE36E233F007ABA36DB12A3.tmp' to '../../../../../../Users/Aric's PC/Documents/Unreal Projects/CarProject/Saved/Autosaves/Game/Blueprints/BP_MyCarProjectPawn_Auto5.uasset'
+[2017.11.17-18.53.03:512][ 44]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Aric's PC/Documents/Unreal Projects/CarProject/Saved/Autosaves/Game/Blueprints/BP_MyCarProjectPawn_Auto5.uasset
+[2017.11.17-18.53.03:512][ 44]LogFileHelpers: Auto-saving content packages took 0.482
+[2017.11.17-19.04.26:311][207]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap' took 0.056
+[2017.11.17-19.04.26:314][207]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/BP_MyCarProjectPawn] ([1] browsable assets)...
+[2017.11.17-19.04.26:354][207]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BP_MyCarProjectPawn.BP_MyCarProjectPawn]
+[2017.11.17-19.04.26:354][207]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_MyCarProjectPawn]
+[2017.11.17-19.04.26:498][207]LogSavePackage: Save=128.26ms
+[2017.11.17-19.04.26:498][207]LogSavePackage: Moving '../../../../../../Users/Aric's PC/Documents/Unreal Projects/CarProject/Saved/BP_MyCarProjectPawn_Auto6EDEBABFF41B10D0A509BCF84C676C937.tmp' to '../../../../../../Users/Aric's PC/Documents/Unreal Projects/CarProject/Saved/Autosaves/Game/Blueprints/BP_MyCarProjectPawn_Auto6.uasset'
+[2017.11.17-19.04.26:578][207]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Aric's PC/Documents/Unreal Projects/CarProject/Saved/Autosaves/Game/Blueprints/BP_MyCarProjectPawn_Auto6.uasset
+[2017.11.17-19.04.26:578][207]LogFileHelpers: Auto-saving content packages took 0.267
+[2017.11.17-20.00.52:937][444]Candidate modules for hot reload:
+[2017.11.17-20.00.52:937][444]  CarProject
+[2017.11.17-20.00.52:937][444]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe CarProject -ModuleWithSuffix CarProject 2571 Win64 Development -editorrecompile -canskiplink "C:/Users/Aric's PC/Documents/Unreal Projects/CarProject/CarProject.uproject" ]
+[2017.11.17-20.00.52:941][444]Warning: Starting HotReload took  0.4s.
+[2017.11.17-20.10.24:805][480]CompilerResultsLog: New page: Compilation - Nov 17, 2017, 10:10:24 AM
+[2017.11.17-20.10.24:806][480]CompilerResultsLog: Compiling game modules for hot reload
+[2017.11.17-20.10.24:806][480]CompilerResultsLog: Parsing headers for CarProjectEditor
+[2017.11.17-20.10.24:806][480]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Aric's PC\Documents\Unreal Projects\CarProject\CarProject.uproject" "C:\Users\Aric's PC\Documents\Unreal Projects\CarProject\Intermediate\Build\Win64\CarProjectEditor\Development\CarProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.11.17-20.10.24:807][480]CompilerResultsLog: Reflection code generated for CarProjectEditor in 30.5494246 seconds
+[2017.11.17-20.10.24:807][480]CompilerResultsLog: Performing 3 actions (4 in parallel)
+[2017.11.17-20.10.24:807][480]CompilerResultsLog: CarProjectPawn.cpp
+[2017.11.17-20.10.24:807][480]CompilerResultsLog: [2/3] Link UE4Editor-CarProject-2571.dll
+[2017.11.17-20.10.24:807][480]CompilerResultsLog: [3/3] Link UE4Editor-CarProject-2571.lib
+[2017.11.17-20.10.24:807][480]CompilerResultsLog:    Creating library C:\Users\Aric's PC\Documents\Unreal Projects\CarProject\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CarProject-2571.lib and object C:\Users\Aric's PC\Documents\Unreal Projects\CarProject\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CarProject-2571.exp
+[2017.11.17-20.10.24:807][480]CompilerResultsLog:    Creating library C:\Users\Aric's PC\Documents\Unreal Projects\CarProject\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CarProject-2571.suppressed.lib and object C:\Users\Aric's PC\Documents\Unreal Projects\CarProject\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CarProject-2571.suppressed.exp
+[2017.11.17-20.10.24:807][480]CompilerResultsLog: Total build time: 570.57 seconds (Local executor: 476.81 seconds)
+[2017.11.17-20.10.24:807][480]LogMainFrame: MainFrame: Module compiling took 571.884 seconds
+[2017.11.17-20.10.32:566][480]LogContentBrowser: Native class hierarchy updated for 'CarProject' in 0.0034 seconds. Added 6 classes and 2 folders.
+[2017.11.17-20.10.32:570][480]Display: HotReload successful (4 functions remapped  0 scriptstructs remapped)
+[2017.11.17-20.10.32:978][480]LogContentBrowser: Native class hierarchy populated in 0.0147 seconds. Added 2396 classes and 509 folders.
+[2017.11.17-20.10.32:978][480]Display: HotReload took 580.4s.
+[2017.11.17-20.10.44:602][156]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.17-20.10.44:640][156]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap' with GeneratedClass '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap_C' with ClassGeneratedBy '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap'
+[2017.11.17-20.10.44:640][156]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.11.17-20.10.44:666][156]LogPlayLevel: [PlayLevel] Compiling Pickup_Blueprint before play...
+[2017.11.17-20.10.44:681][156]LogPlayLevel: [PlayLevel]   Compiling HUD as a dependent...
+[2017.11.17-20.10.44:702][156]LogPlayLevel: [PlayLevel]   Compiling BP_MyCarProjectPawn as a dependent...
+[2017.11.17-20.10.45:586][156]LogPlayLevel: PlayLevel: Blueprint regeneration took 945 ms (3 blueprints)
+[2017.11.17-20.10.45:587][156]PIE: New page: PIE session: VehicleAdvExampleMap (Nov 17, 2017, 10:10:45 AM)
+[2017.11.17-20.10.45:587][156]LogPlayLevel: Creating play world package: /Game/VehicleAdvCPP/Maps/UEDPIE_0_VehicleAdvExampleMap
+[2017.11.17-20.10.46:209][156]LogPlayLevel: PIE: StaticDuplicateObject took: (0.622302s)
+[2017.11.17-20.10.46:211][156]LogAIModule: Creating AISystem for world VehicleAdvExampleMap
+[2017.11.17-20.10.46:211][156]LogPlayLevel: PIE: World Init took: (0.002452s)
+[2017.11.17-20.10.46:211][156]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap to /Game/VehicleAdvCPP/Maps/UEDPIE_0_VehicleAdvExampleMap.VehicleAdvExampleMap (0.625325s)
+[2017.11.17-20.10.46:262][156]LogInit: XAudio2 using 'ASUS VN248 (Intel(R) Display Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.17-20.10.46:491][156]LogInit: FAudioDevice initialized.
+[2017.11.17-20.10.46:531][156]LogLoad: Game class is 'CarProjectGameMode'
+[2017.11.17-20.10.46:544][156]LogWorld: Bringing World /Game/VehicleAdvCPP/Maps/UEDPIE_0_VehicleAdvExampleMap.VehicleAdvExampleMap up for play (max tick rate 60) at 2017.11.17-15.10.46
+[2017.11.17-20.10.46:545][156]LogWorld: Bringing up level for play took: 0.010022
+[2017.11.17-20.10.46:549][156]PIE: Play in editor start time for /Game/VehicleAdvCPP/Maps/UEDPIE_0_VehicleAdvExampleMap 1.958
+[2017.11.17-20.10.46:550][156]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap' with GeneratedClass '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap_C' with ClassGeneratedBy '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap'
+[2017.11.17-20.10.53:942][586]LogBlueprintUserMessages: [TP_VehicleAdvPawn5] 90
+[2017.11.17-20.10.57:012][770]LogBlueprintUserMessages: [TP_VehicleAdvPawn5] 80
+[2017.11.17-20.10.57:617][806]LogBlueprintUserMessages: [TP_VehicleAdvPawn5] 70
+[2017.11.17-20.10.58:447][856]LogBlueprintUserMessages: [TP_VehicleAdvPawn5] 60
+[2017.11.17-20.10.58:997][889]LogBlueprintUserMessages: [TP_VehicleAdvPawn5] 50
+[2017.11.17-20.10.59:567][923]LogBlueprintUserMessages: [TP_VehicleAdvPawn5] 40
+[2017.11.17-20.11.00:032][951]LogBlueprintUserMessages: [TP_VehicleAdvPawn5] 30
+[2017.11.17-20.11.07:727][411]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap' with GeneratedClass '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap_C' with ClassGeneratedBy '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap'
+[2017.11.17-20.11.07:773][411]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap' with GeneratedClass '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap_C' with ClassGeneratedBy '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap'
+[2017.11.17-20.11.08:988][477]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.17-20.11.09:016][477]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap' with GeneratedClass '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap_C' with ClassGeneratedBy '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap'
+[2017.11.17-20.11.09:016][477]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.17-20.11.09:016][477]PIE: New page: PIE session: VehicleAdvExampleMap (Nov 17, 2017, 10:11:09 AM)
+[2017.11.17-20.11.09:016][477]LogPlayLevel: Creating play world package: /Game/VehicleAdvCPP/Maps/UEDPIE_0_VehicleAdvExampleMap
+[2017.11.17-20.11.09:044][477]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028498s)
+[2017.11.17-20.11.09:045][477]LogAIModule: Creating AISystem for world VehicleAdvExampleMap
+[2017.11.17-20.11.09:046][477]LogPlayLevel: PIE: World Init took: (0.000978s)
+[2017.11.17-20.11.09:046][477]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap to /Game/VehicleAdvCPP/Maps/UEDPIE_0_VehicleAdvExampleMap.VehicleAdvExampleMap (0.029834s)
+[2017.11.17-20.11.09:067][477]LogInit: XAudio2 using 'ASUS VN248 (Intel(R) Display Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.17-20.11.09:087][477]LogInit: FAudioDevice initialized.
+[2017.11.17-20.11.09:117][477]LogLoad: Game class is 'CarProjectGameMode'
+[2017.11.17-20.11.09:126][477]LogWorld: Bringing World /Game/VehicleAdvCPP/Maps/UEDPIE_0_VehicleAdvExampleMap.VehicleAdvExampleMap up for play (max tick rate 60) at 2017.11.17-15.11.09
+[2017.11.17-20.11.09:127][477]LogWorld: Bringing up level for play took: 0.007632
+[2017.11.17-20.11.09:129][477]PIE: Play in editor start time for /Game/VehicleAdvCPP/Maps/UEDPIE_0_VehicleAdvExampleMap 0.538
+[2017.11.17-20.11.09:129][477]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap' with GeneratedClass '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap_C' with ClassGeneratedBy '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap'
+[2017.11.17-20.11.14:277][778]LogBlueprintUserMessages: [TP_VehicleAdvPawn5] 90
+[2017.11.17-20.11.15:299][838]LogBlueprintUserMessages: [TP_VehicleAdvPawn5] 80
+[2017.11.17-20.11.16:116][886]LogBlueprintUserMessages: [TP_VehicleAdvPawn5] 70
+[2017.11.17-20.11.16:780][925]LogBlueprintUserMessages: [TP_VehicleAdvPawn5] 60
+[2017.11.17-20.11.17:783][985]LogBlueprintUserMessages: [TP_VehicleAdvPawn5] 50
+[2017.11.17-20.11.18:318][ 17]LogBlueprintUserMessages: [TP_VehicleAdvPawn5] 40
+[2017.11.17-20.11.19:820][107]LogBlueprintUserMessages: [TP_VehicleAdvPawn5] 30
+[2017.11.17-20.11.24:775][403]LogBlueprintUserMessages: [TP_VehicleAdvPawn5] 20
+[2017.11.17-20.11.26:275][493]LogBlueprintUserMessages: [TP_VehicleAdvPawn5] 10
+[2017.11.17-20.11.26:913][531]LogBlueprintUserMessages: [TP_VehicleAdvPawn5] 0
+[2017.11.17-20.11.28:915][651]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap' with GeneratedClass '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap_C' with ClassGeneratedBy '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap'
+[2017.11.17-20.11.28:961][651]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap' with GeneratedClass '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap_C' with ClassGeneratedBy '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap'
+[2017.11.17-20.12.08:607][424]LogSavePackage: Save=392.55ms
+[2017.11.17-20.12.08:607][424]LogSavePackage: Moving '../../../../../../Users/Aric's PC/Documents/Unreal Projects/CarProject/Saved/VehicleAdvExampleMap_Auto7D0D241B7454396791DCC6CB44F4D820A.tmp' to '../../../../../../Users/Aric's PC/Documents/Unreal Projects/CarProject/Saved/Autosaves/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap_Auto7.umap'
+[2017.11.17-20.12.08:611][424]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Aric's PC/Documents/Unreal Projects/CarProject/Saved/Autosaves/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap_Auto7.umap
+[2017.11.17-20.12.08:627][424]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap' took 0.488
+[2017.11.17-20.12.08:627][424]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.488
+[2017.11.17-20.12.08:630][424]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/BP_MyCarProjectPawn] ([1] browsable assets)...
+[2017.11.17-20.12.08:630][424]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_MyCarProjectPawn]
+[2017.11.17-20.12.08:765][424]LogSavePackage: Save=121.53ms
+[2017.11.17-20.12.08:765][424]LogSavePackage: Moving '../../../../../../Users/Aric's PC/Documents/Unreal Projects/CarProject/Saved/BP_MyCarProjectPawn_Auto7820BEC0842AEF0B9E3F86687CD2EAFD0.tmp' to '../../../../../../Users/Aric's PC/Documents/Unreal Projects/CarProject/Saved/Autosaves/Game/Blueprints/BP_MyCarProjectPawn_Auto7.uasset'
+[2017.11.17-20.12.08:767][424]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Aric's PC/Documents/Unreal Projects/CarProject/Saved/Autosaves/Game/Blueprints/BP_MyCarProjectPawn_Auto7.uasset
+[2017.11.17-20.12.08:767][424]LogFileHelpers: Auto-saving content packages took 0.138
+[2017.11.17-20.12.28:067][527]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.17-20.12.28:090][527]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap' with GeneratedClass '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap_C' with ClassGeneratedBy '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap'
+[2017.11.17-20.12.28:090][527]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.17-20.12.28:090][527]PIE: New page: PIE session: VehicleAdvExampleMap (Nov 17, 2017, 10:12:28 AM)
+[2017.11.17-20.12.28:090][527]LogPlayLevel: Creating play world package: /Game/VehicleAdvCPP/Maps/UEDPIE_0_VehicleAdvExampleMap
+[2017.11.17-20.12.28:117][527]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027122s)
+[2017.11.17-20.12.28:118][527]LogAIModule: Creating AISystem for world VehicleAdvExampleMap
+[2017.11.17-20.12.28:119][527]LogPlayLevel: PIE: World Init took: (0.001107s)
+[2017.11.17-20.12.28:119][527]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap to /Game/VehicleAdvCPP/Maps/UEDPIE_0_VehicleAdvExampleMap.VehicleAdvExampleMap (0.028580s)
+[2017.11.17-20.12.28:141][527]LogInit: XAudio2 using 'ASUS VN248 (Intel(R) Display Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.17-20.12.28:162][527]LogInit: FAudioDevice initialized.
+[2017.11.17-20.12.28:196][527]LogLoad: Game class is 'CarProjectGameMode'
+[2017.11.17-20.12.28:206][527]LogWorld: Bringing World /Game/VehicleAdvCPP/Maps/UEDPIE_0_VehicleAdvExampleMap.VehicleAdvExampleMap up for play (max tick rate 60) at 2017.11.17-15.12.28
+[2017.11.17-20.12.28:207][527]LogWorld: Bringing up level for play took: 0.008492
+[2017.11.17-20.12.28:210][527]PIE: Play in editor start time for /Game/VehicleAdvCPP/Maps/UEDPIE_0_VehicleAdvExampleMap -0.381
+[2017.11.17-20.12.28:210][527]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap' with GeneratedClass '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap_C' with ClassGeneratedBy '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap'
+[2017.11.17-20.12.30:036][632]LogBlueprintUserMessages: [TP_VehicleAdvPawn5] 90
+[2017.11.17-20.12.32:120][757]LogBlueprintUserMessages: [TP_VehicleAdvPawn5] 80
+[2017.11.17-20.12.32:924][805]LogBlueprintUserMessages: [TP_VehicleAdvPawn5] 70
+[2017.11.17-20.12.33:975][868]LogBlueprintUserMessages: [TP_VehicleAdvPawn5] 60
+[2017.11.17-20.12.34:809][918]LogBlueprintUserMessages: [TP_VehicleAdvPawn5] 50
+[2017.11.17-20.12.35:808][978]LogBlueprintUserMessages: [TP_VehicleAdvPawn5] 40
+[2017.11.17-20.12.41:146][298]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap' with GeneratedClass '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap_C' with ClassGeneratedBy '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap'
+[2017.11.17-20.12.41:187][298]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap' with GeneratedClass '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap_C' with ClassGeneratedBy '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap'
+[2017.11.17-20.15.38:970][111]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.17-20.15.38:991][111]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap' with GeneratedClass '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap_C' with ClassGeneratedBy '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap'
+[2017.11.17-20.15.38:991][111]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.17-20.15.38:992][111]PIE: New page: PIE session: VehicleAdvExampleMap (Nov 17, 2017, 10:15:38 AM)
+[2017.11.17-20.15.38:992][111]LogPlayLevel: Creating play world package: /Game/VehicleAdvCPP/Maps/UEDPIE_0_VehicleAdvExampleMap
+[2017.11.17-20.15.39:021][111]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029716s)
+[2017.11.17-20.15.39:022][111]LogAIModule: Creating AISystem for world VehicleAdvExampleMap
+[2017.11.17-20.15.39:023][111]LogPlayLevel: PIE: World Init took: (0.001367s)
+[2017.11.17-20.15.39:023][111]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap to /Game/VehicleAdvCPP/Maps/UEDPIE_0_VehicleAdvExampleMap.VehicleAdvExampleMap (0.031502s)
+[2017.11.17-20.15.39:046][111]LogInit: XAudio2 using 'ASUS VN248 (Intel(R) Display Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.17-20.15.39:066][111]LogInit: FAudioDevice initialized.
+[2017.11.17-20.15.39:099][111]LogLoad: Game class is 'CarProjectGameMode'
+[2017.11.17-20.15.39:108][111]LogWorld: Bringing World /Game/VehicleAdvCPP/Maps/UEDPIE_0_VehicleAdvExampleMap.VehicleAdvExampleMap up for play (max tick rate 60) at 2017.11.17-15.15.39
+[2017.11.17-20.15.39:110][111]LogWorld: Bringing up level for play took: 0.007892
+[2017.11.17-20.15.39:112][111]PIE: Play in editor start time for /Game/VehicleAdvCPP/Maps/UEDPIE_0_VehicleAdvExampleMap 0.521
+[2017.11.17-20.15.39:112][111]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap' with GeneratedClass '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap_C' with ClassGeneratedBy '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap'
+[2017.11.17-20.15.39:529][132]LogBlueprintUserMessages: [TP_VehicleAdvPawn5] 90
+[2017.11.17-20.15.41:265][236]LogBlueprintUserMessages: [TP_VehicleAdvPawn5] 80
+[2017.11.17-20.15.47:001][579]LogBlueprintUserMessages: [TP_VehicleAdvPawn5] 70
+[2017.11.17-20.15.48:720][682]LogBlueprintUserMessages: [TP_VehicleAdvPawn5] 60
+[2017.11.17-20.15.49:855][750]LogBlueprintUserMessages: [TP_VehicleAdvPawn5] 50
+[2017.11.17-20.15.50:655][798]LogBlueprintUserMessages: [TP_VehicleAdvPawn5] 40
+[2017.11.17-20.15.51:510][849]LogBlueprintUserMessages: [TP_VehicleAdvPawn5] 30
+[2017.11.17-20.15.52:994][938]LogBlueprintUserMessages: [TP_VehicleAdvPawn5] 20
+[2017.11.17-20.15.54:592][ 33]LogBlueprintUserMessages: [TP_VehicleAdvPawn5] 10
+[2017.11.17-20.15.57:165][187]LogBlueprintUserMessages: [TP_VehicleAdvPawn5] 0
+[2017.11.17-20.15.59:032][299]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap' with GeneratedClass '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap_C' with ClassGeneratedBy '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap'
+[2017.11.17-20.15.59:078][299]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap' with GeneratedClass '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap_C' with ClassGeneratedBy '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap'
+[2017.11.17-20.17.44:250][766]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.17-20.17.44:271][766]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap' with GeneratedClass '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap_C' with ClassGeneratedBy '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap'
+[2017.11.17-20.17.44:272][766]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.17-20.17.44:272][766]PIE: New page: PIE session: VehicleAdvExampleMap (Nov 17, 2017, 10:17:44 AM)
+[2017.11.17-20.17.44:272][766]LogPlayLevel: Creating play world package: /Game/VehicleAdvCPP/Maps/UEDPIE_0_VehicleAdvExampleMap
+[2017.11.17-20.17.44:304][766]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031831s)
+[2017.11.17-20.17.44:305][766]LogAIModule: Creating AISystem for world VehicleAdvExampleMap
+[2017.11.17-20.17.44:306][766]LogPlayLevel: PIE: World Init took: (0.001718s)
+[2017.11.17-20.17.44:306][766]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap to /Game/VehicleAdvCPP/Maps/UEDPIE_0_VehicleAdvExampleMap.VehicleAdvExampleMap (0.034130s)
+[2017.11.17-20.17.44:334][766]LogInit: XAudio2 using 'ASUS VN248 (Intel(R) Display Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.17-20.17.44:356][766]LogInit: FAudioDevice initialized.
+[2017.11.17-20.17.44:393][766]LogLoad: Game class is 'CarProjectGameMode'
+[2017.11.17-20.17.44:405][766]LogWorld: Bringing World /Game/VehicleAdvCPP/Maps/UEDPIE_0_VehicleAdvExampleMap.VehicleAdvExampleMap up for play (max tick rate 60) at 2017.11.17-15.17.44
+[2017.11.17-20.17.44:407][766]LogWorld: Bringing up level for play took: 0.008793
+[2017.11.17-20.17.44:409][766]PIE: Play in editor start time for /Game/VehicleAdvCPP/Maps/UEDPIE_0_VehicleAdvExampleMap -0.182
+[2017.11.17-20.17.44:410][766]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap' with GeneratedClass '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap_C' with ClassGeneratedBy '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap'
+[2017.11.17-20.17.46:625][894]LogBlueprintUserMessages: [TP_VehicleAdvPawn5] 90
+[2017.11.17-20.17.49:149][ 45]LogBlueprintUserMessages: [TP_VehicleAdvPawn5] 80
+[2017.11.17-20.17.50:584][131]LogBlueprintUserMessages: [TP_VehicleAdvPawn5] 70
+[2017.11.17-20.17.51:966][214]LogBlueprintUserMessages: [TP_VehicleAdvPawn5] 60
+[2017.11.17-20.17.56:713][498]LogBlueprintUserMessages: [TP_VehicleAdvPawn5] 50
+[2017.11.17-20.17.59:068][639]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap' with GeneratedClass '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap_C' with ClassGeneratedBy '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap'
+[2017.11.17-20.17.59:111][639]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap' with GeneratedClass '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap_C' with ClassGeneratedBy '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap'
+[2017.11.17-20.21.29:230][389]Candidate modules for hot reload:
+[2017.11.17-20.21.29:231][389]  CarProject
+[2017.11.17-20.21.29:231][389]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe CarProject -ModuleWithSuffix CarProject 5163 Win64 Development -editorrecompile -canskiplink "C:/Users/Aric's PC/Documents/Unreal Projects/CarProject/CarProject.uproject" ]
+[2017.11.17-20.21.29:233][389]Warning: Starting HotReload took  0.0s.
+[2017.11.17-20.25.47:972][682]CompilerResultsLog: New page: Compilation - Nov 17, 2017, 10:25:47 AM
+[2017.11.17-20.25.47:972][682]CompilerResultsLog: Compiling game modules for hot reload
+[2017.11.17-20.25.47:972][682]CompilerResultsLog: Parsing headers for CarProjectEditor
+[2017.11.17-20.25.47:972][682]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Aric's PC\Documents\Unreal Projects\CarProject\CarProject.uproject" "C:\Users\Aric's PC\Documents\Unreal Projects\CarProject\Intermediate\Build\Win64\CarProjectEditor\Development\CarProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.11.17-20.25.47:972][682]CompilerResultsLog: Reflection code generated for CarProjectEditor in 32.2013674 seconds
+[2017.11.17-20.25.47:972][682]CompilerResultsLog: Performing 3 actions (4 in parallel)
+[2017.11.17-20.25.47:972][682]CompilerResultsLog: CarProjectPawn.cpp
+[2017.11.17-20.25.47:973][682]CompilerResultsLog: Error: C:\Program Files\Epic Games\UE_4.17\Engine\Source\Runtime\Core\Public\Containers/UnrealString.h(1366) : error C2665: 'CheckVA': none of the 11 overloads could convert all the argument types
+[2017.11.17-20.25.47:973][682]CompilerResultsLog: Error: C:\Program Files\Epic Games\UE_4.17\Engine\Source\Runtime\Core\Public\Misc/VarArgs.h(87) : note: could be 'bool CheckVA(bool)'
+[2017.11.17-20.25.47:973][682]CompilerResultsLog: Error: C:\Program Files\Epic Games\UE_4.17\Engine\Source\Runtime\Core\Public\Misc/VarArgs.h(86) : note: or       'void *CheckVA(ANSICHAR *)'
+[2017.11.17-20.25.47:973][682]CompilerResultsLog: Error: C:\Program Files\Epic Games\UE_4.17\Engine\Source\Runtime\Core\Public\Misc/VarArgs.h(85) : note: or       'TCHAR CheckVA(TCHAR)'
+[2017.11.17-20.25.47:973][682]CompilerResultsLog: Error: C:\Program Files\Epic Games\UE_4.17\Engine\Source\Runtime\Core\Public\Misc/VarArgs.h(84) : note: or       'long CheckVA(unsigned long)'
+[2017.11.17-20.25.47:973][682]CompilerResultsLog: Error: C:\Program Files\Epic Games\UE_4.17\Engine\Source\Runtime\Core\Public\Misc/VarArgs.h(83) : note: or       'long CheckVA(long)'
+[2017.11.17-20.25.47:973][682]CompilerResultsLog: Error: C:\Program Files\Epic Games\UE_4.17\Engine\Source\Runtime\Core\Public\Misc/VarArgs.h(82) : note: or       'double CheckVA(double)'
+[2017.11.17-20.25.47:973][682]CompilerResultsLog: Error: C:\Program Files\Epic Games\UE_4.17\Engine\Source\Runtime\Core\Public\Misc/VarArgs.h(81) : note: or       'int64 CheckVA(int64)'
+[2017.11.17-20.25.47:973][682]CompilerResultsLog: Error: C:\Program Files\Epic Games\UE_4.17\Engine\Source\Runtime\Core\Public\Misc/VarArgs.h(80) : note: or       'uint64 CheckVA(uint64)'
+[2017.11.17-20.25.47:973][682]CompilerResultsLog: Error: C:\Program Files\Epic Games\UE_4.17\Engine\Source\Runtime\Core\Public\Misc/VarArgs.h(79) : note: or       'int32 CheckVA(int32)'
+[2017.11.17-20.25.47:973][682]CompilerResultsLog: Error: C:\Program Files\Epic Games\UE_4.17\Engine\Source\Runtime\Core\Public\Misc/VarArgs.h(78) : note: or       'uint8 CheckVA(uint8)'
+[2017.11.17-20.25.47:973][682]CompilerResultsLog: Error: C:\Program Files\Epic Games\UE_4.17\Engine\Source\Runtime\Core\Public\Misc/VarArgs.h(77) : note: or       'uint32 CheckVA(uint32)'
+[2017.11.17-20.25.47:973][682]CompilerResultsLog: Error: C:\Program Files\Epic Games\UE_4.17\Engine\Source\Runtime\Core\Public\Containers/UnrealString.h(1366) : note: while trying to match the argument list '(FString)'
+[2017.11.17-20.25.47:973][682]CompilerResultsLog: Error: C:\Users\Aric's PC\Documents\Unreal Projects\CarProject\Source\CarProject\CarProjectPawn.cpp(269) : note: see reference to function template instantiation 'FString FString::Printf<FString>(const TCHAR *,T1)' being compiled
+[2017.11.17-20.25.47:973][682]CompilerResultsLog:         with
+[2017.11.17-20.25.47:973][682]CompilerResultsLog:         [
+[2017.11.17-20.25.47:974][682]CompilerResultsLog:             T1=FString
+[2017.11.17-20.25.47:974][682]CompilerResultsLog:         ]
+[2017.11.17-20.25.47:974][682]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: C:\Users\Aric's PC\Documents\Unreal Projects\CarProject\Binaries\Win64\UE4Editor-CarProject-5163.dll
+[2017.11.17-20.25.47:974][682]CompilerResultsLog: Total build time: 257.84 seconds (Local executor: 0.00 seconds)
+[2017.11.17-20.25.47:974][682]LogMainFrame: MainFrame: Module compiling took 258.754 seconds
+[2017.11.17-20.25.47:974][682]Warning: HotReload failed, recompile failed
+[2017.11.17-20.29.44:199][585]Candidate modules for hot reload:
+[2017.11.17-20.29.44:199][585]  CarProject
+[2017.11.17-20.29.44:200][585]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe CarProject -ModuleWithSuffix CarProject 4233 Win64 Development -editorrecompile -canskiplink "C:/Users/Aric's PC/Documents/Unreal Projects/CarProject/CarProject.uproject" ]
+[2017.11.17-20.29.44:201][585]Warning: Starting HotReload took  0.0s.
+[2017.11.17-20.32.01:772][590]CompilerResultsLog: New page: Compilation - Nov 17, 2017, 10:32:01 AM
+[2017.11.17-20.32.01:772][590]CompilerResultsLog: Compiling game modules for hot reload
+[2017.11.17-20.32.01:772][590]CompilerResultsLog: Parsing headers for CarProjectEditor
+[2017.11.17-20.32.01:772][590]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Aric's PC\Documents\Unreal Projects\CarProject\CarProject.uproject" "C:\Users\Aric's PC\Documents\Unreal Projects\CarProject\Intermediate\Build\Win64\CarProjectEditor\Development\CarProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.11.17-20.32.01:772][590]CompilerResultsLog: Reflection code generated for CarProjectEditor in 33.8829396 seconds
+[2017.11.17-20.32.01:772][590]CompilerResultsLog: Performing 3 actions (4 in parallel)
+[2017.11.17-20.32.01:772][590]CompilerResultsLog: CarProjectPawn.cpp
+[2017.11.17-20.32.01:772][590]CompilerResultsLog: [2/3] Link UE4Editor-CarProject-4233.dll
+[2017.11.17-20.32.01:773][590]CompilerResultsLog: [3/3] Link UE4Editor-CarProject-4233.lib
+[2017.11.17-20.32.01:773][590]CompilerResultsLog:    Creating library C:\Users\Aric's PC\Documents\Unreal Projects\CarProject\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CarProject-4233.lib and object C:\Users\Aric's PC\Documents\Unreal Projects\CarProject\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CarProject-4233.exp
+[2017.11.17-20.32.01:773][590]CompilerResultsLog:    Creating library C:\Users\Aric's PC\Documents\Unreal Projects\CarProject\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CarProject-4233.suppressed.lib and object C:\Users\Aric's PC\Documents\Unreal Projects\CarProject\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CarProject-4233.suppressed.exp
+[2017.11.17-20.32.01:773][590]CompilerResultsLog: Total build time: 136.59 seconds (Local executor: 72.57 seconds)
+[2017.11.17-20.32.01:773][590]LogMainFrame: MainFrame: Module compiling took 137.582 seconds
+[2017.11.17-20.32.08:274][590]LogContentBrowser: Native class hierarchy updated for 'CarProject' in 0.0028 seconds. Added 6 classes and 2 folders.
+[2017.11.17-20.32.08:277][590]Display: HotReload successful (4 functions remapped  0 scriptstructs remapped)
+[2017.11.17-20.32.08:599][590]LogContentBrowser: Native class hierarchy populated in 0.0126 seconds. Added 2396 classes and 509 folders.
+[2017.11.17-20.32.08:599][590]Display: HotReload took 144.4s.
+[2017.11.17-20.32.41:145][525]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.17-20.32.41:175][525]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap' with GeneratedClass '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap_C' with ClassGeneratedBy '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap'
+[2017.11.17-20.32.41:175][525]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.17-20.32.41:175][525]PIE: New page: PIE session: VehicleAdvExampleMap (Nov 17, 2017, 10:32:41 AM)
+[2017.11.17-20.32.41:175][525]LogPlayLevel: Creating play world package: /Game/VehicleAdvCPP/Maps/UEDPIE_0_VehicleAdvExampleMap
+[2017.11.17-20.32.41:564][525]LogPlayLevel: PIE: StaticDuplicateObject took: (0.388638s)
+[2017.11.17-20.32.41:566][525]LogAIModule: Creating AISystem for world VehicleAdvExampleMap
+[2017.11.17-20.32.41:566][525]LogPlayLevel: PIE: World Init took: (0.001745s)
+[2017.11.17-20.32.41:566][525]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap to /Game/VehicleAdvCPP/Maps/UEDPIE_0_VehicleAdvExampleMap.VehicleAdvExampleMap (0.390904s)
+[2017.11.17-20.32.41:630][525]LogInit: XAudio2 using 'ASUS VN248 (Intel(R) Display Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.17-20.32.41:768][525]LogInit: FAudioDevice initialized.
+[2017.11.17-20.32.41:801][525]LogLoad: Game class is 'CarProjectGameMode'
+[2017.11.17-20.32.41:812][525]LogWorld: Bringing World /Game/VehicleAdvCPP/Maps/UEDPIE_0_VehicleAdvExampleMap.VehicleAdvExampleMap up for play (max tick rate 60) at 2017.11.17-15.32.41
+[2017.11.17-20.32.41:813][525]LogWorld: Bringing up level for play took: 0.008074
+[2017.11.17-20.32.41:816][525]PIE: Play in editor start time for /Game/VehicleAdvCPP/Maps/UEDPIE_0_VehicleAdvExampleMap 1.225
+[2017.11.17-20.32.41:816][525]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap' with GeneratedClass '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap_C' with ClassGeneratedBy '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap'
+[2017.11.17-20.33.35:254][689]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap' with GeneratedClass '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap_C' with ClassGeneratedBy '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap'
+[2017.11.17-20.33.35:301][689]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap' with GeneratedClass '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap_C' with ClassGeneratedBy '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap'
+[2017.11.17-20.37.18:753][492]Candidate modules for hot reload:
+[2017.11.17-20.37.18:753][492]  CarProject
+[2017.11.17-20.37.18:753][492]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe CarProject -ModuleWithSuffix CarProject 3169 Win64 Development -editorrecompile -canskiplink "C:/Users/Aric's PC/Documents/Unreal Projects/CarProject/CarProject.uproject" ]
+[2017.11.17-20.37.18:755][492]Warning: Starting HotReload took  0.0s.
+[2017.11.17-20.39.58:457][923]CompilerResultsLog: New page: Compilation - Nov 17, 2017, 10:39:58 AM
+[2017.11.17-20.39.58:457][923]CompilerResultsLog: Compiling game modules for hot reload
+[2017.11.17-20.39.58:458][923]CompilerResultsLog: Parsing headers for CarProjectEditor
+[2017.11.17-20.39.58:458][923]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Aric's PC\Documents\Unreal Projects\CarProject\CarProject.uproject" "C:\Users\Aric's PC\Documents\Unreal Projects\CarProject\Intermediate\Build\Win64\CarProjectEditor\Development\CarProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.11.17-20.39.58:458][923]CompilerResultsLog: Reflection code generated for CarProjectEditor in 25.1401963 seconds
+[2017.11.17-20.39.58:458][923]CompilerResultsLog: Performing 3 actions (4 in parallel)
+[2017.11.17-20.39.58:458][923]CompilerResultsLog: CarProjectPawn.cpp
+[2017.11.17-20.39.58:458][923]CompilerResultsLog: [2/3] Link UE4Editor-CarProject-3169.dll
+[2017.11.17-20.39.58:458][923]CompilerResultsLog: [3/3] Link UE4Editor-CarProject-3169.lib
+[2017.11.17-20.39.58:458][923]CompilerResultsLog:    Creating library C:\Users\Aric's PC\Documents\Unreal Projects\CarProject\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CarProject-3169.lib and object C:\Users\Aric's PC\Documents\Unreal Projects\CarProject\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CarProject-3169.exp
+[2017.11.17-20.39.58:458][923]CompilerResultsLog:    Creating library C:\Users\Aric's PC\Documents\Unreal Projects\CarProject\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CarProject-3169.suppressed.lib and object C:\Users\Aric's PC\Documents\Unreal Projects\CarProject\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CarProject-3169.suppressed.exp
+[2017.11.17-20.39.58:458][923]CompilerResultsLog: Total build time: 158.82 seconds (Local executor: 116.84 seconds)
+[2017.11.17-20.39.58:459][923]LogMainFrame: MainFrame: Module compiling took 159.714 seconds
+[2017.11.17-20.40.01:412][923]LogContentBrowser: Native class hierarchy updated for 'CarProject' in 0.0025 seconds. Added 6 classes and 2 folders.
+[2017.11.17-20.40.01:416][923]Display: HotReload successful (4 functions remapped  0 scriptstructs remapped)
+[2017.11.17-20.40.01:730][923]LogContentBrowser: Native class hierarchy populated in 0.0123 seconds. Added 2396 classes and 509 folders.
+[2017.11.17-20.40.01:730][923]Display: HotReload took 163.0s.
+[2017.11.17-20.40.38:643][120]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.17-20.40.38:676][120]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap' with GeneratedClass '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap_C' with ClassGeneratedBy '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap'
+[2017.11.17-20.40.38:676][120]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.17-20.40.38:677][120]PIE: New page: PIE session: VehicleAdvExampleMap (Nov 17, 2017, 10:40:38 AM)
+[2017.11.17-20.40.38:677][120]LogPlayLevel: Creating play world package: /Game/VehicleAdvCPP/Maps/UEDPIE_0_VehicleAdvExampleMap
+[2017.11.17-20.40.38:731][120]LogPlayLevel: PIE: StaticDuplicateObject took: (0.054533s)
+[2017.11.17-20.40.38:732][120]LogAIModule: Creating AISystem for world VehicleAdvExampleMap
+[2017.11.17-20.40.38:732][120]LogPlayLevel: PIE: World Init took: (0.001232s)
+[2017.11.17-20.40.38:733][120]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap to /Game/VehicleAdvCPP/Maps/UEDPIE_0_VehicleAdvExampleMap.VehicleAdvExampleMap (0.056217s)
+[2017.11.17-20.40.38:797][120]LogInit: XAudio2 using 'ASUS VN248 (Intel(R) Display Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.17-20.40.38:878][120]LogInit: FAudioDevice initialized.
+[2017.11.17-20.40.38:921][120]LogLoad: Game class is 'CarProjectGameMode'
+[2017.11.17-20.40.38:931][120]LogWorld: Bringing World /Game/VehicleAdvCPP/Maps/UEDPIE_0_VehicleAdvExampleMap.VehicleAdvExampleMap up for play (max tick rate 60) at 2017.11.17-15.40.38
+[2017.11.17-20.40.38:933][120]LogWorld: Bringing up level for play took: 0.007952
+[2017.11.17-20.40.38:935][120]PIE: Play in editor start time for /Game/VehicleAdvCPP/Maps/UEDPIE_0_VehicleAdvExampleMap 0.344
+[2017.11.17-20.40.38:935][120]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap' with GeneratedClass '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap_C' with ClassGeneratedBy '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap'
+[2017.11.17-20.41.30:645][172]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap' with GeneratedClass '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap_C' with ClassGeneratedBy '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap'
+[2017.11.17-20.41.30:696][172]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap' with GeneratedClass '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap_C' with ClassGeneratedBy '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap'
+[2017.11.17-21.07.48:550][334]LogHttp: Warning: 000001B712A99300: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.11.17-21.07.48:550][334]LogHttp: Warning: 000001B712A99300: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1b735437fb8 [can pipeline])
+[2017.11.17-21.07.48:550][334]LogHttp: Warning: 000001B712A99300: libcurl info message cache 1 (Re-using existing connection! (#45) with host datarouter.ol.epicgames.com)
+[2017.11.17-21.07.48:550][334]LogHttp: Warning: 000001B712A99300: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (52.0.158.153) port 443 (#45))
+[2017.11.17-21.07.48:550][334]LogHttp: Warning: 000001B712A99300: libcurl info message cache 3 (upload completely sent off: 367 out of 367 bytes)
+[2017.11.17-21.07.48:550][334]LogHttp: Warning: 000001B712A99300: libcurl info message cache 4 (SSL read: error:00000000:lib(0):func(0):reason(0), errno 10054)
+[2017.11.17-21.07.48:550][334]LogHttp: Warning: 000001B712A99300: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2017.11.17-21.07.48:550][334]LogHttp: Warning: 000001B712A99300: libcurl info message cache 6 (Closing connection 45)
+[2017.11.17-21.07.48:550][334]LogHttp: Warning: 000001B712A99300: libcurl info message cache 7 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B3B780762-4569-8514-097E-859B415047EB%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.2-3658906%2B%2B%2BUE4%2BRelease-4.17&UserID=cd1f60b7479b32bd24c174b1375c1b70%7C4ba7aa541e964517b0d99766beec29d1%7Cb30741d6-520e-4fea-be44-def22d0e3946&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2017.11.17-21.07.48:551][334]LogHttp: Warning: 000001B712A99300: libcurl info message cache 8 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.11.17-21.07.48:551][334]LogHttp: Warning: 000001B712A99300: libcurl info message cache 9 (Closing connection 46)
+[2017.11.17-21.14.42:690][623]Candidate modules for hot reload:
+[2017.11.17-21.14.42:691][623]  CarProject
+[2017.11.17-21.14.42:691][623]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe CarProject -ModuleWithSuffix CarProject 297 Win64 Development -editorrecompile -canskiplink "C:/Users/Aric's PC/Documents/Unreal Projects/CarProject/CarProject.uproject" ]
+[2017.11.17-21.14.42:693][623]Warning: Starting HotReload took  0.0s.
+[2017.11.17-21.16.53:951][346]CompilerResultsLog: New page: Compilation - Nov 17, 2017, 11:16:53 AM
+[2017.11.17-21.16.53:955][346]CompilerResultsLog: Compiling game modules for hot reload
+[2017.11.17-21.16.53:955][346]CompilerResultsLog: Parsing headers for CarProjectEditor
+[2017.11.17-21.16.53:955][346]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Aric's PC\Documents\Unreal Projects\CarProject\CarProject.uproject" "C:\Users\Aric's PC\Documents\Unreal Projects\CarProject\Intermediate\Build\Win64\CarProjectEditor\Development\CarProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.11.17-21.16.53:956][346]CompilerResultsLog: Reflection code generated for CarProjectEditor in 24.3813029 seconds
+[2017.11.17-21.16.53:956][346]CompilerResultsLog: Performing 3 actions (4 in parallel)
+[2017.11.17-21.16.53:956][346]CompilerResultsLog: CarProjectPawn.cpp
+[2017.11.17-21.16.53:956][346]CompilerResultsLog: Error: C:\Users\Aric's PC\Documents\Unreal Projects\CarProject\Source\CarProject\CarProjectPawn.cpp(224) : warning C4996: 'USceneComponent::ComponentToWorld': ComponentToWorld will be made private, use GetComponentTransform() instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2017.11.17-21.16.53:956][346]CompilerResultsLog: Error: C:\Program Files\Epic Games\UE_4.17\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(205) : note: see declaration of 'USceneComponent::ComponentToWorld'
+[2017.11.17-21.16.53:957][346]CompilerResultsLog: [2/3] Link UE4Editor-CarProject-297.dll
+[2017.11.17-21.16.53:957][346]CompilerResultsLog: [3/3] Link UE4Editor-CarProject-297.lib
+[2017.11.17-21.16.53:957][346]CompilerResultsLog:    Creating library C:\Users\Aric's PC\Documents\Unreal Projects\CarProject\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CarProject-297.lib and object C:\Users\Aric's PC\Documents\Unreal Projects\CarProject\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CarProject-297.exp
+[2017.11.17-21.16.53:957][346]CompilerResultsLog:    Creating library C:\Users\Aric's PC\Documents\Unreal Projects\CarProject\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CarProject-297.suppressed.lib and object C:\Users\Aric's PC\Documents\Unreal Projects\CarProject\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CarProject-297.suppressed.exp
+[2017.11.17-21.16.53:958][346]CompilerResultsLog: Total build time: 130.02 seconds (Local executor: 74.09 seconds)
+[2017.11.17-21.16.53:958][346]LogMainFrame: MainFrame: Module compiling took 131.275 seconds
+[2017.11.17-21.16.57:370][346]LogContentBrowser: Native class hierarchy updated for 'CarProject' in 0.0112 seconds. Added 6 classes and 2 folders.
+[2017.11.17-21.16.57:373][346]Display: HotReload successful (4 functions remapped  0 scriptstructs remapped)
+[2017.11.17-21.16.57:801][346]LogContentBrowser: Native class hierarchy populated in 0.0141 seconds. Added 2396 classes and 509 folders.
+[2017.11.17-21.16.57:801][346]Display: HotReload took 135.1s.
+[2017.11.17-21.17.01:415][555]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.17-21.17.01:458][555]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap' with GeneratedClass '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap_C' with ClassGeneratedBy '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap'
+[2017.11.17-21.17.01:459][555]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.17-21.17.01:459][555]PIE: New page: PIE session: VehicleAdvExampleMap (Nov 17, 2017, 11:17:01 AM)
+[2017.11.17-21.17.01:459][555]LogPlayLevel: Creating play world package: /Game/VehicleAdvCPP/Maps/UEDPIE_0_VehicleAdvExampleMap
+[2017.11.17-21.17.01:590][555]LogPlayLevel: PIE: StaticDuplicateObject took: (0.130228s)
+[2017.11.17-21.17.01:596][555]LogAIModule: Creating AISystem for world VehicleAdvExampleMap
+[2017.11.17-21.17.01:597][555]LogPlayLevel: PIE: World Init took: (0.006704s)
+[2017.11.17-21.17.01:597][555]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap to /Game/VehicleAdvCPP/Maps/UEDPIE_0_VehicleAdvExampleMap.VehicleAdvExampleMap (0.137446s)
+[2017.11.17-21.17.01:683][555]LogInit: XAudio2 using 'ASUS VN248 (Intel(R) Display Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.17-21.17.01:759][555]LogInit: FAudioDevice initialized.
+[2017.11.17-21.17.01:797][555]LogLoad: Game class is 'CarProjectGameMode'
+[2017.11.17-21.17.01:807][555]LogWorld: Bringing World /Game/VehicleAdvCPP/Maps/UEDPIE_0_VehicleAdvExampleMap.VehicleAdvExampleMap up for play (max tick rate 60) at 2017.11.17-16.17.01
+[2017.11.17-21.17.01:809][555]LogWorld: Bringing up level for play took: 0.009452
+[2017.11.17-21.17.01:849][555]PIE: Play in editor start time for /Game/VehicleAdvCPP/Maps/UEDPIE_0_VehicleAdvExampleMap 1.258
+[2017.11.17-21.17.01:849][555]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap' with GeneratedClass '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap_C' with ClassGeneratedBy '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap'
+[2017.11.17-21.17.03:135][616]LogBlueprintUserMessages: [BP_MyCarProjectPawn_5] 90
+[2017.11.17-21.17.11:232][ 82]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap' with GeneratedClass '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap_C' with ClassGeneratedBy '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap'
+[2017.11.17-21.17.11:277][ 82]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap' with GeneratedClass '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap_C' with ClassGeneratedBy '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap'
+[2017.11.17-21.17.22:197][200]Candidate modules for hot reload:
+[2017.11.17-21.17.22:197][200]  CarProject
+[2017.11.17-21.17.22:197][200]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe CarProject -ModuleWithSuffix CarProject 3608 Win64 Development -editorrecompile -canskiplink "C:/Users/Aric's PC/Documents/Unreal Projects/CarProject/CarProject.uproject" ]
+[2017.11.17-21.17.22:199][200]Warning: Starting HotReload took  0.0s.
+[2017.11.17-21.19.31:622][665]CompilerResultsLog: New page: Compilation - Nov 17, 2017, 11:19:31 AM
+[2017.11.17-21.19.31:622][665]CompilerResultsLog: Compiling game modules for hot reload
+[2017.11.17-21.19.31:622][665]CompilerResultsLog: Parsing headers for CarProjectEditor
+[2017.11.17-21.19.31:622][665]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Aric's PC\Documents\Unreal Projects\CarProject\CarProject.uproject" "C:\Users\Aric's PC\Documents\Unreal Projects\CarProject\Intermediate\Build\Win64\CarProjectEditor\Development\CarProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.11.17-21.19.31:622][665]CompilerResultsLog: Reflection code generated for CarProjectEditor in 28.0451906 seconds
+[2017.11.17-21.19.31:622][665]CompilerResultsLog: Performing 3 actions (4 in parallel)
+[2017.11.17-21.19.31:622][665]CompilerResultsLog: CarProjectPawn.cpp
+[2017.11.17-21.19.31:622][665]CompilerResultsLog: Error: C:\Users\Aric's PC\Documents\Unreal Projects\CarProject\Source\CarProject\CarProjectPawn.cpp(224) : warning C4996: 'USceneComponent::ComponentToWorld': ComponentToWorld will be made private, use GetComponentTransform() instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2017.11.17-21.19.31:623][665]CompilerResultsLog: Error: C:\Program Files\Epic Games\UE_4.17\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(205) : note: see declaration of 'USceneComponent::ComponentToWorld'
+[2017.11.17-21.19.31:623][665]CompilerResultsLog: [2/3] Link UE4Editor-CarProject-3608.dll
+[2017.11.17-21.19.31:623][665]CompilerResultsLog: [3/3] Link UE4Editor-CarProject-3608.lib
+[2017.11.17-21.19.31:623][665]CompilerResultsLog:    Creating library C:\Users\Aric's PC\Documents\Unreal Projects\CarProject\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CarProject-3608.lib and object C:\Users\Aric's PC\Documents\Unreal Projects\CarProject\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CarProject-3608.exp
+[2017.11.17-21.19.31:623][665]CompilerResultsLog:    Creating library C:\Users\Aric's PC\Documents\Unreal Projects\CarProject\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CarProject-3608.suppressed.lib and object C:\Users\Aric's PC\Documents\Unreal Projects\CarProject\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CarProject-3608.suppressed.exp
+[2017.11.17-21.19.31:623][665]CompilerResultsLog: Total build time: 128.59 seconds (Local executor: 78.91 seconds)
+[2017.11.17-21.19.31:623][665]LogMainFrame: MainFrame: Module compiling took 129.435 seconds
+[2017.11.17-21.19.32:186][665]LogContentBrowser: Native class hierarchy updated for 'CarProject' in 0.0026 seconds. Added 6 classes and 2 folders.
+[2017.11.17-21.19.32:190][665]Display: HotReload successful (4 functions remapped  0 scriptstructs remapped)
+[2017.11.17-21.19.32:501][665]LogContentBrowser: Native class hierarchy populated in 0.0146 seconds. Added 2396 classes and 509 folders.
+[2017.11.17-21.19.32:501][665]Display: HotReload took 130.3s.
+[2017.11.17-21.19.36:921][924]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.17-21.19.36:950][924]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap' with GeneratedClass '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap_C' with ClassGeneratedBy '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap'
+[2017.11.17-21.19.36:950][924]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.17-21.19.36:950][924]PIE: New page: PIE session: VehicleAdvExampleMap (Nov 17, 2017, 11:19:36 AM)
+[2017.11.17-21.19.36:950][924]LogPlayLevel: Creating play world package: /Game/VehicleAdvCPP/Maps/UEDPIE_0_VehicleAdvExampleMap
+[2017.11.17-21.19.36:980][924]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029367s)
+[2017.11.17-21.19.36:981][924]LogAIModule: Creating AISystem for world VehicleAdvExampleMap
+[2017.11.17-21.19.36:982][924]LogPlayLevel: PIE: World Init took: (0.001561s)
+[2017.11.17-21.19.36:982][924]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap to /Game/VehicleAdvCPP/Maps/UEDPIE_0_VehicleAdvExampleMap.VehicleAdvExampleMap (0.031592s)
+[2017.11.17-21.19.37:044][924]LogInit: XAudio2 using 'ASUS VN248 (Intel(R) Display Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.17-21.19.37:063][924]LogInit: FAudioDevice initialized.
+[2017.11.17-21.19.37:095][924]LogLoad: Game class is 'CarProjectGameMode'
+[2017.11.17-21.19.37:104][924]LogWorld: Bringing World /Game/VehicleAdvCPP/Maps/UEDPIE_0_VehicleAdvExampleMap.VehicleAdvExampleMap up for play (max tick rate 60) at 2017.11.17-16.19.37
+[2017.11.17-21.19.37:105][924]LogWorld: Bringing up level for play took: 0.007893
+[2017.11.17-21.19.37:107][924]PIE: Play in editor start time for /Game/VehicleAdvCPP/Maps/UEDPIE_0_VehicleAdvExampleMap 0.516
+[2017.11.17-21.19.37:108][924]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap' with GeneratedClass '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap_C' with ClassGeneratedBy '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap'
+[2017.11.17-21.19.57:764][139]LogBlueprintUserMessages: [TP_VehicleAdvPawn5] 90
+[2017.11.17-21.20.02:383][412]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap' with GeneratedClass '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap_C' with ClassGeneratedBy '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap'
+[2017.11.17-21.20.02:426][412]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap' with GeneratedClass '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap_C' with ClassGeneratedBy '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap'
+[2017.11.17-21.20.03:681][472]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.17-21.20.03:710][472]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap' with GeneratedClass '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap_C' with ClassGeneratedBy '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap'
+[2017.11.17-21.20.03:710][472]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.17-21.20.03:710][472]PIE: New page: PIE session: VehicleAdvExampleMap (Nov 17, 2017, 11:20:03 AM)
+[2017.11.17-21.20.03:710][472]LogPlayLevel: Creating play world package: /Game/VehicleAdvCPP/Maps/UEDPIE_0_VehicleAdvExampleMap
+[2017.11.17-21.20.03:737][472]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027214s)
+[2017.11.17-21.20.03:738][472]LogAIModule: Creating AISystem for world VehicleAdvExampleMap
+[2017.11.17-21.20.03:738][472]LogPlayLevel: PIE: World Init took: (0.000982s)
+[2017.11.17-21.20.03:739][472]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap to /Game/VehicleAdvCPP/Maps/UEDPIE_0_VehicleAdvExampleMap.VehicleAdvExampleMap (0.028853s)
+[2017.11.17-21.20.03:762][472]LogInit: XAudio2 using 'ASUS VN248 (Intel(R) Display Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.17-21.20.03:781][472]LogInit: FAudioDevice initialized.
+[2017.11.17-21.20.03:817][472]LogLoad: Game class is 'CarProjectGameMode'
+[2017.11.17-21.20.03:824][472]LogWorld: Bringing World /Game/VehicleAdvCPP/Maps/UEDPIE_0_VehicleAdvExampleMap.VehicleAdvExampleMap up for play (max tick rate 60) at 2017.11.17-16.20.03
+[2017.11.17-21.20.03:825][472]LogWorld: Bringing up level for play took: 0.006924
+[2017.11.17-21.20.03:827][472]PIE: Play in editor start time for /Game/VehicleAdvCPP/Maps/UEDPIE_0_VehicleAdvExampleMap -0.763
+[2017.11.17-21.20.03:828][472]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap' with GeneratedClass '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap_C' with ClassGeneratedBy '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap'
+[2017.11.17-21.21.19:150][971]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap' with GeneratedClass '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap_C' with ClassGeneratedBy '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap'
+[2017.11.17-21.21.19:194][971]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap' with GeneratedClass '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap_C' with ClassGeneratedBy '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap'
+[2017.11.17-21.33.39:268][451]Candidate modules for hot reload:
+[2017.11.17-21.33.39:268][451]  CarProject
+[2017.11.17-21.33.39:268][451]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe CarProject -ModuleWithSuffix CarProject 2355 Win64 Development -editorrecompile -canskiplink "C:/Users/Aric's PC/Documents/Unreal Projects/CarProject/CarProject.uproject" ]
+[2017.11.17-21.33.39:270][451]Warning: Starting HotReload took  0.0s.
+[2017.11.17-21.36.38:389][359]CompilerResultsLog: New page: Compilation - Nov 17, 2017, 11:36:38 AM
+[2017.11.17-21.36.38:390][359]CompilerResultsLog: Compiling game modules for hot reload
+[2017.11.17-21.36.38:390][359]CompilerResultsLog: Parsing headers for CarProjectEditor
+[2017.11.17-21.36.38:390][359]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Aric's PC\Documents\Unreal Projects\CarProject\CarProject.uproject" "C:\Users\Aric's PC\Documents\Unreal Projects\CarProject\Intermediate\Build\Win64\CarProjectEditor\Development\CarProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.11.17-21.36.38:390][359]CompilerResultsLog: Reflection code generated for CarProjectEditor in 28.7549854 seconds
+[2017.11.17-21.36.38:390][359]CompilerResultsLog: Performing 3 actions (4 in parallel)
+[2017.11.17-21.36.38:390][359]CompilerResultsLog: CarProjectPawn.cpp
+[2017.11.17-21.36.38:390][359]CompilerResultsLog: Error: C:\Users\Aric's PC\Documents\Unreal Projects\CarProject\Source\CarProject\CarProjectPawn.cpp(224) : warning C4996: 'USceneComponent::ComponentToWorld': ComponentToWorld will be made private, use GetComponentTransform() instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2017.11.17-21.36.38:390][359]CompilerResultsLog: Error: C:\Program Files\Epic Games\UE_4.17\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(205) : note: see declaration of 'USceneComponent::ComponentToWorld'
+[2017.11.17-21.36.38:390][359]CompilerResultsLog: [2/3] Link UE4Editor-CarProject-2355.dll
+[2017.11.17-21.36.38:390][359]CompilerResultsLog: [3/3] Link UE4Editor-CarProject-2355.lib
+[2017.11.17-21.36.38:390][359]CompilerResultsLog:    Creating library C:\Users\Aric's PC\Documents\Unreal Projects\CarProject\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CarProject-2355.lib and object C:\Users\Aric's PC\Documents\Unreal Projects\CarProject\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CarProject-2355.exp
+[2017.11.17-21.36.38:390][359]CompilerResultsLog:    Creating library C:\Users\Aric's PC\Documents\Unreal Projects\CarProject\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CarProject-2355.suppressed.lib and object C:\Users\Aric's PC\Documents\Unreal Projects\CarProject\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CarProject-2355.suppressed.exp
+[2017.11.17-21.36.38:390][359]CompilerResultsLog: Total build time: 178.06 seconds (Local executor: 127.11 seconds)
+[2017.11.17-21.36.38:390][359]LogMainFrame: MainFrame: Module compiling took 179.131 seconds
+[2017.11.17-21.36.40:832][359]LogContentBrowser: Native class hierarchy updated for 'CarProject' in 0.0027 seconds. Added 6 classes and 2 folders.
+[2017.11.17-21.36.40:836][359]Display: HotReload successful (4 functions remapped  0 scriptstructs remapped)
+[2017.11.17-21.36.41:142][359]LogContentBrowser: Native class hierarchy populated in 0.0126 seconds. Added 2396 classes and 509 folders.
+[2017.11.17-21.36.41:142][359]Display: HotReload took 181.9s.
+[2017.11.17-21.36.45:685][622]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.17-21.36.45:717][622]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap' with GeneratedClass '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap_C' with ClassGeneratedBy '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap'
+[2017.11.17-21.36.45:717][622]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.17-21.36.45:717][622]PIE: New page: PIE session: VehicleAdvExampleMap (Nov 17, 2017, 11:36:45 AM)
+[2017.11.17-21.36.45:717][622]LogPlayLevel: Creating play world package: /Game/VehicleAdvCPP/Maps/UEDPIE_0_VehicleAdvExampleMap
+[2017.11.17-21.36.45:787][622]LogPlayLevel: PIE: StaticDuplicateObject took: (0.070021s)
+[2017.11.17-21.36.45:788][622]LogAIModule: Creating AISystem for world VehicleAdvExampleMap
+[2017.11.17-21.36.45:789][622]LogPlayLevel: PIE: World Init took: (0.001083s)
+[2017.11.17-21.36.45:789][622]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap to /Game/VehicleAdvCPP/Maps/UEDPIE_0_VehicleAdvExampleMap.VehicleAdvExampleMap (0.071642s)
+[2017.11.17-21.36.45:847][622]LogInit: XAudio2 using 'ASUS VN248 (Intel(R) Display Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.17-21.36.45:914][622]LogInit: FAudioDevice initialized.
+[2017.11.17-21.36.45:963][622]LogLoad: Game class is 'CarProjectGameMode'
+[2017.11.17-21.36.45:972][622]LogWorld: Bringing World /Game/VehicleAdvCPP/Maps/UEDPIE_0_VehicleAdvExampleMap.VehicleAdvExampleMap up for play (max tick rate 60) at 2017.11.17-16.36.45
+[2017.11.17-21.36.45:974][622]LogWorld: Bringing up level for play took: 0.007834
+[2017.11.17-21.36.45:976][622]PIE: Play in editor start time for /Game/VehicleAdvCPP/Maps/UEDPIE_0_VehicleAdvExampleMap -0.615
+[2017.11.17-21.36.45:976][622]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap' with GeneratedClass '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap_C' with ClassGeneratedBy '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap'
+[2017.11.17-21.36.56:849][ 13]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap' with GeneratedClass '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap_C' with ClassGeneratedBy '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap'
+[2017.11.17-21.36.56:894][ 13]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap' with GeneratedClass '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap_C' with ClassGeneratedBy '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap'
+[2017.11.17-21.36.57:977][ 59]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.17-21.36.58:008][ 59]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap' with GeneratedClass '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap_C' with ClassGeneratedBy '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap'
+[2017.11.17-21.36.58:008][ 59]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.17-21.36.58:009][ 59]PIE: New page: PIE session: VehicleAdvExampleMap (Nov 17, 2017, 11:36:58 AM)
+[2017.11.17-21.36.58:009][ 59]LogPlayLevel: Creating play world package: /Game/VehicleAdvCPP/Maps/UEDPIE_0_VehicleAdvExampleMap
+[2017.11.17-21.36.58:038][ 59]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029668s)
+[2017.11.17-21.36.58:039][ 59]LogAIModule: Creating AISystem for world VehicleAdvExampleMap
+[2017.11.17-21.36.58:039][ 59]LogPlayLevel: PIE: World Init took: (0.001080s)
+[2017.11.17-21.36.58:040][ 59]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap to /Game/VehicleAdvCPP/Maps/UEDPIE_0_VehicleAdvExampleMap.VehicleAdvExampleMap (0.031183s)
+[2017.11.17-21.36.58:064][ 59]LogInit: XAudio2 using 'ASUS VN248 (Intel(R) Display Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.17-21.36.58:095][ 59]LogInit: FAudioDevice initialized.
+[2017.11.17-21.36.58:130][ 59]LogLoad: Game class is 'CarProjectGameMode'
+[2017.11.17-21.36.58:138][ 59]LogWorld: Bringing World /Game/VehicleAdvCPP/Maps/UEDPIE_0_VehicleAdvExampleMap.VehicleAdvExampleMap up for play (max tick rate 60) at 2017.11.17-16.36.58
+[2017.11.17-21.36.58:139][ 59]LogWorld: Bringing up level for play took: 0.007572
+[2017.11.17-21.36.58:142][ 59]PIE: Play in editor start time for /Game/VehicleAdvCPP/Maps/UEDPIE_0_VehicleAdvExampleMap -0.449
+[2017.11.17-21.36.58:142][ 59]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap' with GeneratedClass '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap_C' with ClassGeneratedBy '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap'
+[2017.11.17-21.37.57:409][560]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap' with GeneratedClass '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap_C' with ClassGeneratedBy '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap'
+[2017.11.17-21.37.57:458][560]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap' with GeneratedClass '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap_C' with ClassGeneratedBy '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap'
+[2017.11.17-21.38.52:696][939]Candidate modules for hot reload:
+[2017.11.17-21.38.52:696][939]  CarProject
+[2017.11.17-21.38.52:697][939]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe CarProject -ModuleWithSuffix CarProject 9041 Win64 Development -editorrecompile -canskiplink "C:/Users/Aric's PC/Documents/Unreal Projects/CarProject/CarProject.uproject" ]
+[2017.11.17-21.38.52:699][939]Warning: Starting HotReload took  0.0s.
+[2017.11.17-21.42.39:213][816]CompilerResultsLog: New page: Compilation - Nov 17, 2017, 11:42:39 AM
+[2017.11.17-21.42.39:213][816]CompilerResultsLog: Compiling game modules for hot reload
+[2017.11.17-21.42.39:213][816]CompilerResultsLog: Parsing headers for CarProjectEditor
+[2017.11.17-21.42.39:213][816]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Aric's PC\Documents\Unreal Projects\CarProject\CarProject.uproject" "C:\Users\Aric's PC\Documents\Unreal Projects\CarProject\Intermediate\Build\Win64\CarProjectEditor\Development\CarProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.11.17-21.42.39:213][816]CompilerResultsLog: Reflection code generated for CarProjectEditor in 32.1058221 seconds
+[2017.11.17-21.42.39:214][816]CompilerResultsLog: Performing 3 actions (4 in parallel)
+[2017.11.17-21.42.39:214][816]CompilerResultsLog: CarProjectPawn.cpp
+[2017.11.17-21.42.39:214][816]CompilerResultsLog: Error: C:\Users\Aric's PC\Documents\Unreal Projects\CarProject\Source\CarProject\CarProjectPawn.cpp(224) : warning C4996: 'USceneComponent::ComponentToWorld': ComponentToWorld will be made private, use GetComponentTransform() instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2017.11.17-21.42.39:214][816]CompilerResultsLog: Error: C:\Program Files\Epic Games\UE_4.17\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(205) : note: see declaration of 'USceneComponent::ComponentToWorld'
+[2017.11.17-21.42.39:214][816]CompilerResultsLog: [2/3] Link UE4Editor-CarProject-9041.dll
+[2017.11.17-21.42.39:214][816]CompilerResultsLog: [3/3] Link UE4Editor-CarProject-9041.lib
+[2017.11.17-21.42.39:214][816]CompilerResultsLog:    Creating library C:\Users\Aric's PC\Documents\Unreal Projects\CarProject\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CarProject-9041.lib and object C:\Users\Aric's PC\Documents\Unreal Projects\CarProject\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CarProject-9041.exp
+[2017.11.17-21.42.39:214][816]CompilerResultsLog:    Creating library C:\Users\Aric's PC\Documents\Unreal Projects\CarProject\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CarProject-9041.suppressed.lib and object C:\Users\Aric's PC\Documents\Unreal Projects\CarProject\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CarProject-9041.suppressed.exp
+[2017.11.17-21.42.39:214][816]CompilerResultsLog: Total build time: 225.18 seconds (Local executor: 163.05 seconds)
+[2017.11.17-21.42.39:214][816]LogMainFrame: MainFrame: Module compiling took 226.527 seconds
+[2017.11.17-21.42.45:496][816]LogContentBrowser: Native class hierarchy updated for 'CarProject' in 0.0028 seconds. Added 6 classes and 2 folders.
+[2017.11.17-21.42.45:500][816]Display: HotReload successful (4 functions remapped  0 scriptstructs remapped)
+[2017.11.17-21.42.45:938][816]LogContentBrowser: Native class hierarchy populated in 0.0179 seconds. Added 2396 classes and 509 folders.
+[2017.11.17-21.42.45:938][816]Display: HotReload took 233.3s.
+[2017.11.17-21.42.47:616][822]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.17-21.42.47:635][822]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap' with GeneratedClass '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap_C' with ClassGeneratedBy '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap'
+[2017.11.17-21.42.47:636][822]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.17-21.42.47:636][822]PIE: New page: PIE session: VehicleAdvExampleMap (Nov 17, 2017, 11:42:47 AM)
+[2017.11.17-21.42.47:636][822]LogPlayLevel: Creating play world package: /Game/VehicleAdvCPP/Maps/UEDPIE_0_VehicleAdvExampleMap
+[2017.11.17-21.42.47:757][822]LogPlayLevel: PIE: StaticDuplicateObject took: (0.120125s)
+[2017.11.17-21.42.47:758][822]LogAIModule: Creating AISystem for world VehicleAdvExampleMap
+[2017.11.17-21.42.47:758][822]LogPlayLevel: PIE: World Init took: (0.001491s)
+[2017.11.17-21.42.47:759][822]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap to /Game/VehicleAdvCPP/Maps/UEDPIE_0_VehicleAdvExampleMap.VehicleAdvExampleMap (0.122351s)
+[2017.11.17-21.42.47:820][822]LogInit: XAudio2 using 'ASUS VN248 (Intel(R) Display Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.17-21.42.47:842][822]LogInit: FAudioDevice initialized.
+[2017.11.17-21.42.47:919][822]LogLoad: Game class is 'CarProjectGameMode'
+[2017.11.17-21.42.47:927][822]LogWorld: Bringing World /Game/VehicleAdvCPP/Maps/UEDPIE_0_VehicleAdvExampleMap.VehicleAdvExampleMap up for play (max tick rate 60) at 2017.11.17-16.42.47
+[2017.11.17-21.42.47:928][822]LogWorld: Bringing up level for play took: 0.007374
+[2017.11.17-21.42.47:931][822]PIE: Play in editor start time for /Game/VehicleAdvCPP/Maps/UEDPIE_0_VehicleAdvExampleMap -0.661
+[2017.11.17-21.42.47:931][822]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap' with GeneratedClass '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap_C' with ClassGeneratedBy '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap'
+[2017.11.17-21.45.12:139][296]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap' with GeneratedClass '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap_C' with ClassGeneratedBy '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap'
+[2017.11.17-21.45.12:178][296]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap' with GeneratedClass '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap_C' with ClassGeneratedBy '/Game/VehicleAdvCPP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.VehicleAdvExampleMap'
+[2017.11.17-21.45.18:405][570]LogSavePackage: Save=414.72ms
+[2017.11.17-21.45.18:405][570]LogSavePackage: Moving '../../../../../../Users/Aric's PC/Documents/Unreal Projects/CarProject/Saved/VehicleAdvExampleMapD8F874974247924B5AC2B9B9EA161FFF.tmp' to '../../../../../../Users/Aric's PC/Documents/Unreal Projects/CarProject/Content/VehicleAdvCPP/Maps/VehicleAdvExampleMap.umap'
+[2017.11.17-21.45.18:411][570]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Aric's PC/Documents/Unreal Projects/CarProject/Content/VehicleAdvCPP/Maps/VehicleAdvExampleMap.umap
+[2017.11.17-21.45.18:496][570]LogFileHelpers: Saving map 'VehicleAdvExampleMap' took 1.074
+[2017.11.17-22.04.37:982][167]LogAudio: Warning: Current Audio Device with ID {0.0.0.00000000}.{d3602565-791a-4cae-9959-33ec82f79ba2} was removed. Shutting down audio device.
+[2017.11.17-22.21.32:080][601]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2017.11.17-22.22.32:357][781]LogAudio: Warning: Current Audio Device with ID {0.0.0.00000000}.{d3602565-791a-4cae-9959-33ec82f79ba2} was removed. Shutting down audio device.
+[2017.11.17-22.49.29:300][628]LogAudio: Warning: Current Audio Device with ID {0.0.0.00000000}.{d3602565-791a-4cae-9959-33ec82f79ba2} was removed. Shutting down audio device.
